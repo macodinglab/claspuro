@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import { Heart, Infinity, Recycle, Sprout, Star, Zap } from "lucide-react"
+import SectionBadge from "./section-badge"
 
 const values = [
   {
@@ -54,11 +55,11 @@ export default function MissionSection() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 mb-24 items-center">
           <div className="animate-slide-in-left">
-            <div className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-6 animate-pulse-soft">
-              Our Purpose
-            </div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
-              Our <span className="text-primary">Mission</span> & Vision
+            <SectionBadge className="mb-6 animate-pulse-soft">
+              <span>Our Purpose</span>
+            </SectionBadge>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground mb-8 leading-tight">
+              Our <span className="text-emerald-700">Mission</span> & Vision
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground mb-6 leading-relaxed">
               We are pioneers in sustainable stationery, transforming banana waste into premium, eco-friendly A4
@@ -84,7 +85,7 @@ export default function MissionSection() {
         </div>
 
         <div className="mb-24">
-          <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground text-center mb-16 animate-fade-in-up">
+          <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground text-center mb-16 animate-fade-in-up">
             Core Values
           </h3>
           <div ref={containerRef} className="grid md:grid-cols-2 gap-10">

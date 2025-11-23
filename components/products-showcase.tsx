@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react"
 import { BookOpen, Grid3x3, Ruler, Check } from "lucide-react"
+import SectionBadge from "./section-badge"
+import PrimaryButton from "./primary-button"
 
 const products = [
   {
@@ -63,10 +65,10 @@ export default function ProductsShowcase() {
     <section id="products" className="relative w-full py-32 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-20">
-          <div className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4 animate-pulse-soft">
-            Our Collections
-          </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+          <SectionBadge className="mb-4 animate-pulse-soft">
+            <span>Our Collections</span>
+          </SectionBadge>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground mb-6 text-balance">
             Premium <span className="text-primary">Eco-Friendly</span> Notebooks
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -136,9 +138,9 @@ export default function ProductsShowcase() {
                       ))}
                     </div>
 
-                    <button className="w-full py-4 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground font-bold rounded-xl hover:shadow-xl transition-smooth group-hover:scale-105 text-base sm:text-lg">
+                    <PrimaryButton className="w-full text-base sm:text-lg group-hover:scale-105">
                       Request Sample
-                    </button>
+                    </PrimaryButton>
                   </div>
                 </div>
               </div>
@@ -146,15 +148,15 @@ export default function ProductsShowcase() {
           })}
         </div>
 
-        <div className="bg-gradient-to-r from-primary/15 to-secondary/15 rounded-3xl p-12 border-2 border-primary/30 text-center hover:border-primary/60 transition-smooth hover:shadow-lg hover:scale-105 group">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 group-hover:scale-110 transition-smooth inline-block">
+        <div className="bg-gradient-to-r from-emerald-100 to-green-100 rounded-3xl p-12 border-2 border-emerald-300 text-center hover:border-emerald-500 transition-smooth hover:shadow-xl hover:scale-105 group">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-4 group-hover:scale-110 transition-smooth inline-block">
             Bulk Orders Available
           </h3>
           <p className="text-base sm:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Custom branding and packaging for schools, offices, NGOs, and organizations. Perfect for corporate gifts and
             environmental initiatives.
           </p>
-          <button className="px-12 py-4 bg-primary text-primary-foreground font-bold rounded-xl hover:shadow-xl transition-smooth hover:scale-110 text-lg inline-block">
+          <button className="px-12 py-4 bg-white text-emerald-900 font-bold rounded-full border-2 border-emerald-600 hover:bg-emerald-50 hover:shadow-xl transition-smooth hover:scale-110 text-lg inline-block">
             Request Bulk Quote
           </button>
         </div>

@@ -299,15 +299,21 @@ function ProductsShowcase() {
                     className: "text-center mb-20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4 animate-pulse-soft",
-                            children: "Our Collections"
+                            className: "inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-800 rounded-full mb-4 border border-emerald-200/50 shadow-lg backdrop-blur-sm text-sm font-semibold animate-pulse-soft",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: "Our Collections"
+                            }, void 0, false, {
+                                fileName: "[project]/components/products-showcase.tsx",
+                                lineNumber: 67,
+                                columnNumber: 13
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/products-showcase.tsx",
                             lineNumber: 66,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance",
+                            className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground mb-6 text-balance",
                             children: [
                                 "Premium ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -467,7 +473,7 @@ function ProductsShowcase() {
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "w-full py-4 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground font-bold rounded-xl hover:shadow-xl transition-smooth group-hover:scale-105 text-base sm:text-lg",
+                                                className: "w-full py-4 bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold rounded-full hover:shadow-2xl transition-smooth group-hover:scale-105 text-base sm:text-lg",
                                                 children: "Request Sample"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
@@ -498,10 +504,10 @@ function ProductsShowcase() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-gradient-to-r from-primary/15 to-secondary/15 rounded-3xl p-12 border-2 border-primary/30 text-center hover:border-primary/60 transition-smooth hover:shadow-lg hover:scale-105 group",
+                    className: "bg-gradient-to-r from-emerald-100 to-green-100 rounded-3xl p-12 border-2 border-emerald-300 text-center hover:border-emerald-500 transition-smooth hover:shadow-xl hover:scale-105 group",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: "text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 group-hover:scale-110 transition-smooth inline-block",
+                            className: "text-2xl sm:text-3xl md:text-4xl font-extrabold text-foreground mb-4 group-hover:scale-110 transition-smooth inline-block",
                             children: "Bulk Orders Available"
                         }, void 0, false, {
                             fileName: "[project]/components/products-showcase.tsx",
@@ -517,7 +523,7 @@ function ProductsShowcase() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "px-12 py-4 bg-primary text-primary-foreground font-bold rounded-xl hover:shadow-xl transition-smooth hover:scale-110 text-lg inline-block",
+                            className: "px-12 py-4 bg-white text-emerald-900 font-bold rounded-full border-2 border-emerald-600 hover:bg-emerald-50 hover:shadow-xl transition-smooth hover:scale-110 text-lg inline-block",
                             children: "Request Bulk Quote"
                         }, void 0, false, {
                             fileName: "[project]/components/products-showcase.tsx",

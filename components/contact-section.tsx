@@ -3,6 +3,8 @@
 import type React from "react"
 import { useState } from "react"
 import { CheckCircle2, Mail, MessageSquare, Users } from "lucide-react"
+import SectionBadge from "./section-badge"
+import PrimaryButton from "./primary-button"
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -29,10 +31,10 @@ export default function ContactSection() {
     <section id="contact" className="relative w-full py-32 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-20">
-          <div className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-4 animate-pulse-soft">
-            Get In Touch
-          </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+          <SectionBadge className="mb-4 animate-pulse-soft">
+            <span>Get In Touch</span>
+          </SectionBadge>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground mb-6 text-balance">
             Let's Connect & <span className="text-primary">Collaborate</span>
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -150,12 +152,12 @@ export default function ContactSection() {
                 ></textarea>
               </div>
 
-              <button
+              <PrimaryButton
                 type="submit"
-                className="w-full py-4 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground font-bold rounded-xl hover:shadow-xl transition-smooth hover:scale-105 text-base sm:text-lg animate-pulse-soft"
+                className="w-full text-base sm:text-lg animate-pulse-soft"
               >
                 Send Message
-              </button>
+              </PrimaryButton>
             </form>
           )}
         </div>
