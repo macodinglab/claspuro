@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import PageHero from "@/components/page-hero"
+import PrimaryButton from "@/components/primary-button"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "FAQ | Claspuro Eco-Friendly Banana Peel Notebooks",
@@ -85,12 +87,11 @@ export default function FAQPage() {
               If you need more details about our banana peel notebooks, bulk pricing in Rwandan Francs or other currencies,
               or regional partnerships in East Africa, our team is happy to help.
             </p>
-            <a
-              href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3 rounded-full bg-primary text-primary-foreground font-semibold text-sm sm:text-base hover:shadow-lg hover:scale-105 transition-smooth"
-            >
-              Contact us
-            </a>
+            <Link href="/contact" className="inline-block">
+              <PrimaryButton className="inline-flex items-center justify-center px-8 py-3 text-sm sm:text-base">
+                Contact us
+              </PrimaryButton>
+            </Link>
           </div>
         </div>
       </section>

@@ -43,7 +43,7 @@ function Navigation() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b-2 border-border",
+        className: "sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-emerald-100",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: [
@@ -55,9 +55,9 @@ function Navigation() {
                             className: "flex items-center gap-2 group",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-12 h-12 bg-primary rounded-xl flex items-center justify-center transition-smooth group-hover:scale-110 group-hover:shadow-lg shadow-md",
+                                    className: "w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center transition-smooth group-hover:scale-110 group-hover:shadow-lg shadow-md",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__["Leaf"], {
-                                        className: "text-primary-foreground",
+                                        className: "text-white",
                                         size: 24
                                     }, void 0, false, {
                                         fileName: "[project]/components/navigation.tsx",
@@ -70,7 +70,7 @@ function Navigation() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "font-bold text-2xl text-primary hidden sm:inline",
+                                    className: "font-bold text-2xl text-emerald-900 hidden sm:inline",
                                     children: "Claspuro"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navigation.tsx",
@@ -89,7 +89,7 @@ function Navigation() {
                                 const isActive = link.href === "/" ? pathname === "/" : pathname?.startsWith(link.href);
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: link.href,
-                                    className: `text-sm md:text-base font-semibold transition-smooth underline-offset-4 px-4 py-2 rounded-full ${isActive ? "bg-gradient-to-r from-primary to-primary/80 text-primary-foreground shadow-sm border border-primary/70" : "text-foreground/80 hover:text-primary hover:underline"}`,
+                                    className: `text-sm md:text-base font-semibold transition-smooth underline-offset-4 px-4 py-2 rounded-full ${isActive ? "bg-gradient-to-r from-emerald-600 to-green-600 text-white shadow-sm border border-emerald-500" : "text-emerald-900/80 hover:text-emerald-700 hover:underline"}`,
                                     children: link.label
                                 }, link.label, false, {
                                     fileName: "[project]/components/navigation.tsx",
@@ -103,7 +103,7 @@ function Navigation() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "hidden md:block px-8 py-3 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground font-bold rounded-full border border-primary/70 hover:shadow-lg transition-smooth hover:scale-105 text-base",
+                            className: "hidden md:block px-8 py-3 bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold rounded-full border border-emerald-500 hover:shadow-lg transition-smooth hover:scale-105 text-base",
                             children: "Order Now"
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
@@ -144,7 +144,7 @@ function Navigation() {
                             const isActive = link.href === "/" ? pathname === "/" : pathname?.startsWith(link.href);
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: link.href,
-                                className: `block px-4 py-3 rounded-lg transition-smooth font-semibold ${isActive ? "bg-primary text-primary-foreground" : "text-foreground hover:bg-primary/10"}`,
+                                className: `block px-4 py-3 rounded-lg transition-smooth font-semibold ${isActive ? "bg-gradient-to-r from-emerald-600 to-green-600 text-white" : "text-emerald-900 hover:bg-emerald-50"}`,
                                 onClick: ()=>setIsOpen(false),
                                 children: link.label
                             }, link.label, false, {
@@ -154,7 +154,7 @@ function Navigation() {
                             }, this);
                         }),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "w-full px-4 py-3 bg-primary text-primary-foreground font-bold rounded-lg hover:shadow-lg transition-smooth",
+                            className: "w-full px-4 py-3 bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold rounded-lg hover:shadow-lg transition-smooth",
                             children: "Order Now"
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
@@ -373,16 +373,22 @@ function ProductsShowcase() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground mb-6 text-balance",
                             children: [
-                                "Premium ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-primary",
-                                    children: "Eco-Friendly"
+                                    className: "block text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 animate-hero-gradient bg-[length:200%_auto] mb-1",
+                                    children: "Premium Eco-Friendly"
                                 }, void 0, false, {
                                     fileName: "[project]/components/products-showcase.tsx",
                                     lineNumber: 72,
-                                    columnNumber: 21
+                                    columnNumber: 13
                                 }, this),
-                                " Notebooks"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "block text-emerald-900",
+                                    children: "Notebooks"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/products-showcase.tsx",
+                                    lineNumber: 75,
+                                    columnNumber: 13
+                                }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/products-showcase.tsx",
@@ -394,7 +400,7 @@ function ProductsShowcase() {
                             children: "Choose from our sustainable A4 notebooks. Each crafted with premium quality, attention to detail, and environmental responsibility."
                         }, void 0, false, {
                             fileName: "[project]/components/products-showcase.tsx",
-                            lineNumber: 74,
+                            lineNumber: 77,
                             columnNumber: 11
                         }, this)
                     ]
@@ -422,7 +428,7 @@ function ProductsShowcase() {
                                         className: "absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent rounded-t-2xl opacity-0 group-hover:opacity-100 transition-smooth"
                                     }, void 0, false, {
                                         fileName: "[project]/components/products-showcase.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 99,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -434,20 +440,20 @@ function ProductsShowcase() {
                                                 className: "w-full h-full object-cover group-hover:scale-110 transition-smooth duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 100,
+                                                lineNumber: 103,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 108,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/products-showcase.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 102,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -460,12 +466,12 @@ function ProductsShowcase() {
                                                     className: "text-white"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/products-showcase.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 116,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 113,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -473,7 +479,7 @@ function ProductsShowcase() {
                                                 children: product.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 120,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -484,7 +490,7 @@ function ProductsShowcase() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 120,
+                                                lineNumber: 123,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -492,7 +498,7 @@ function ProductsShowcase() {
                                                 children: product.description
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 125,
+                                                lineNumber: 128,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,7 +514,7 @@ function ProductsShowcase() {
                                                                 className: "text-primary flex-shrink-0 animate-scale-pulse"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                                lineNumber: 135,
+                                                                lineNumber: 138,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -516,18 +522,18 @@ function ProductsShowcase() {
                                                                 children: feature
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                                lineNumber: 136,
+                                                                lineNumber: 139,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, i, true, {
                                                         fileName: "[project]/components/products-showcase.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 133,
                                                         columnNumber: 25
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 131,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$primary$2d$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -535,30 +541,30 @@ function ProductsShowcase() {
                                                 children: "Request Sample"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/products-showcase.tsx",
-                                                lineNumber: 141,
+                                                lineNumber: 144,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/products-showcase.tsx",
-                                        lineNumber: 108,
+                                        lineNumber: 111,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/products-showcase.tsx",
-                                lineNumber: 94,
+                                lineNumber: 97,
                                 columnNumber: 17
                             }, this)
                         }, product.id, false, {
                             fileName: "[project]/components/products-showcase.tsx",
-                            lineNumber: 86,
+                            lineNumber: 89,
                             columnNumber: 15
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/products-showcase.tsx",
-                    lineNumber: 80,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -569,7 +575,7 @@ function ProductsShowcase() {
                             children: "Bulk Orders Available"
                         }, void 0, false, {
                             fileName: "[project]/components/products-showcase.tsx",
-                            lineNumber: 152,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -577,7 +583,7 @@ function ProductsShowcase() {
                             children: "Custom branding and packaging for schools, offices, NGOs, and organizations. Perfect for corporate gifts and environmental initiatives."
                         }, void 0, false, {
                             fileName: "[project]/components/products-showcase.tsx",
-                            lineNumber: 155,
+                            lineNumber: 158,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -585,13 +591,13 @@ function ProductsShowcase() {
                             children: "Request Bulk Quote"
                         }, void 0, false, {
                             fileName: "[project]/components/products-showcase.tsx",
-                            lineNumber: 159,
+                            lineNumber: 162,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/products-showcase.tsx",
-                    lineNumber: 151,
+                    lineNumber: 154,
                     columnNumber: 9
                 }, this)
             ]

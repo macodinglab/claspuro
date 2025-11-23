@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ReactNode } from "react"
+import SectionBadge from "./section-badge"
 
 const PAGE_HERO_PARTICLES = [
   { left: "15%", top: "22%", delay: "0s", duration: "18s" },
@@ -67,14 +68,7 @@ export default function PageHero({
 
       <div className={`relative z-10 ${maxWidthClass} mx-auto text-center`}>
         {badgeContent && (
-          <div
-            className={
-              badgeClassName ||
-              "inline-flex items-center gap-3 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6"
-            }
-          >
-            {badgeContent}
-          </div>
+          <SectionBadge className={badgeClassName || "mb-6"}>{badgeContent}</SectionBadge>
         )}
 
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">

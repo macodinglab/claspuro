@@ -43,7 +43,7 @@ function Navigation() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b-2 border-border",
+        className: "sticky top-0 z-50 bg-white/90 backdrop-blur-sm border-b border-emerald-100",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: [
@@ -55,9 +55,9 @@ function Navigation() {
                             className: "flex items-center gap-2 group",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "w-12 h-12 bg-primary rounded-xl flex items-center justify-center transition-smooth group-hover:scale-110 group-hover:shadow-lg shadow-md",
+                                    className: "w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center transition-smooth group-hover:scale-110 group-hover:shadow-lg shadow-md",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__["Leaf"], {
-                                        className: "text-primary-foreground",
+                                        className: "text-white",
                                         size: 24
                                     }, void 0, false, {
                                         fileName: "[project]/components/navigation.tsx",
@@ -70,7 +70,7 @@ function Navigation() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "font-bold text-2xl text-primary hidden sm:inline",
+                                    className: "font-bold text-2xl text-emerald-900 hidden sm:inline",
                                     children: "Claspuro"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navigation.tsx",
@@ -89,7 +89,7 @@ function Navigation() {
                                 const isActive = link.href === "/" ? pathname === "/" : pathname?.startsWith(link.href);
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: link.href,
-                                    className: `text-sm md:text-base font-semibold transition-smooth underline-offset-4 px-4 py-2 rounded-full ${isActive ? "bg-gradient-to-r from-primary to-primary/80 text-primary-foreground shadow-sm border border-primary/70" : "text-foreground/80 hover:text-primary hover:underline"}`,
+                                    className: `text-sm md:text-base font-semibold transition-smooth underline-offset-4 px-4 py-2 rounded-full ${isActive ? "bg-gradient-to-r from-emerald-600 to-green-600 text-white shadow-sm border border-emerald-500" : "text-emerald-900/80 hover:text-emerald-700 hover:underline"}`,
                                     children: link.label
                                 }, link.label, false, {
                                     fileName: "[project]/components/navigation.tsx",
@@ -103,7 +103,7 @@ function Navigation() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "hidden md:block px-8 py-3 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground font-bold rounded-full border border-primary/70 hover:shadow-lg transition-smooth hover:scale-105 text-base",
+                            className: "hidden md:block px-8 py-3 bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold rounded-full border border-emerald-500 hover:shadow-lg transition-smooth hover:scale-105 text-base",
                             children: "Order Now"
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
@@ -144,7 +144,7 @@ function Navigation() {
                             const isActive = link.href === "/" ? pathname === "/" : pathname?.startsWith(link.href);
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: link.href,
-                                className: `block px-4 py-3 rounded-lg transition-smooth font-semibold ${isActive ? "bg-primary text-primary-foreground" : "text-foreground hover:bg-primary/10"}`,
+                                className: `block px-4 py-3 rounded-lg transition-smooth font-semibold ${isActive ? "bg-gradient-to-r from-emerald-600 to-green-600 text-white" : "text-emerald-900 hover:bg-emerald-50"}`,
                                 onClick: ()=>setIsOpen(false),
                                 children: link.label
                             }, link.label, false, {
@@ -154,7 +154,7 @@ function Navigation() {
                             }, this);
                         }),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "w-full px-4 py-3 bg-primary text-primary-foreground font-bold rounded-lg hover:shadow-lg transition-smooth",
+                            className: "w-full px-4 py-3 bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold rounded-lg hover:shadow-lg transition-smooth",
                             children: "Order Now"
                         }, void 0, false, {
                             fileName: "[project]/components/navigation.tsx",
