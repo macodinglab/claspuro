@@ -367,7 +367,7 @@ function Footer() {
                                         className: "space-y-3",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "mailto:hello@claspuro.com",
+                                                href: "mailto:info@claspuro.com",
                                                 className: "flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors duration-300 group",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -386,7 +386,7 @@ function Footer() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "font-medium",
-                                                        children: "hello@claspuro.com"
+                                                        children: "info@claspuro.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/footer.tsx",
                                                         lineNumber: 104,
@@ -1519,14 +1519,14 @@ const LeadershipSection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-gray-600 text-sm sm:text-base leading-relaxed",
-                                                children: "Aime leads Claspuro's vision of reducing deforestation by turning banana waste into sustainable, premium stationery—while creating ethical jobs across Rwanda."
+                                                children: "Aime leads Claspuro's vision of reducing deforestation by turning banana waste into sustainable, premium stationery while creating ethical jobs across Rwanda."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/about/page.tsx",
                                                 lineNumber: 242,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "mailto:ikuzwepacem5@gmail.com",
+                                                href: "mailto:aimeikuzwe@claspuro.com",
                                                 className: "inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-900 font-semibold text-sm mt-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -1537,7 +1537,7 @@ const LeadershipSection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "ikuzwepacem5@gmail.com"
+                                                        children: "aimeikuzwe@claspuro.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/about/page.tsx",
                                                         lineNumber: 251,
@@ -1615,7 +1615,7 @@ const LeadershipSection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "mailto:kenndeykaregeya12@gmail.com",
+                                                href: "mailto:kennedykaregeya@claspuro.com",
                                                 className: "inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-900 font-semibold text-sm mt-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -1626,7 +1626,7 @@ const LeadershipSection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$
                                                         columnNumber: 17
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "kenndeykaregeya12@gmail.com"
+                                                        children: "kennedykaregeya@claspuro.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/about/page.tsx",
                                                         lineNumber: 279,

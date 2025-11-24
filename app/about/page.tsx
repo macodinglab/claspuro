@@ -241,14 +241,14 @@ const LeadershipSection = () => (
               <p className="text-emerald-700 font-semibold text-sm uppercase tracking-wide">Founder & CEO</p>
               <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
                 Aime leads Claspuro's vision of reducing deforestation by turning banana waste into sustainable, premium
-                stationery—while creating ethical jobs across Rwanda.
+                stationery while creating ethical jobs across Rwanda.
               </p>
               <a
-                href="mailto:ikuzwepacem5@gmail.com"
+                href="mailto:aimeikuzwe@claspuro.com"
                 className="inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-900 font-semibold text-sm mt-2"
               >
                 <ArrowRight size={16} />
-                <span>ikuzwepacem5@gmail.com</span>
+                <span>aimeikuzwe@claspuro.com</span>
               </a>
             </div>
           </div>
@@ -272,11 +272,11 @@ const LeadershipSection = () => (
                 schools, offices, and organizations across East Africa.
               </p>
               <a
-                href="mailto:kenndeykaregeya12@gmail.com"
+                href="mailto:kennedykaregeya@claspuro.com"
                 className="inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-900 font-semibold text-sm mt-2"
               >
                 <ArrowRight size={16} />
-                <span>kenndeykaregeya12@gmail.com</span>
+                <span>kennedykaregeya@claspuro.com</span>
               </a>
             </div>
           </div>

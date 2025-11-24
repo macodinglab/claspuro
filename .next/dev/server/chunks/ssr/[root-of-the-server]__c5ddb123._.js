@@ -367,7 +367,7 @@ function Footer() {
                                         className: "space-y-3",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "mailto:hello@claspuro.com",
+                                                href: "mailto:info@claspuro.com",
                                                 className: "flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors duration-300 group",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -386,7 +386,7 @@ function Footer() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "font-medium",
-                                                        children: "hello@claspuro.com"
+                                                        children: "info@claspuro.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/footer.tsx",
                                                         lineNumber: 104,

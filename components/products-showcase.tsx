@@ -11,7 +11,7 @@ const products = [
     icon: BookOpen,
     color: "from-emerald-500 to-green-600",
     features: ["80 pages", "A4 size", "Premium finish"],
-    price: "$12",
+    price: "$3",
     image: "/ruled-notebook-lined-pages.jpg",
     badge: "Popular"
   },
@@ -22,7 +22,7 @@ const products = [
     icon: Grid3x3,
     color: "from-teal-500 to-emerald-600",
     features: ["120 pages", "A4 size", "Ultra smooth"],
-    price: "$14",
+    price: "$3",
     image: "/plain-blank-notebook-pages.jpg",
     badge: "Best Seller"
   },
@@ -33,7 +33,7 @@ const products = [
     icon: Ruler,
     color: "from-green-500 to-teal-600",
     features: ["100 pages", "A4 size", "Professional"],
-    price: "$13",
+    price: "$3",
     image: "/grid-notebook-squared-paper.jpg",
     badge: "New"
   },

@@ -97,11 +97,11 @@ export default function Footer() {
             
             {/* Contact Info */}
             <div className="space-y-3">
-              <a href="mailto:hello@claspuro.com" className="flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors duration-300 group">
+              <a href="mailto:info@claspuro.com" className="flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors duration-300 group">
                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors duration-300">
                   <Mail size={18} />
                 </div>
-                <span className="font-medium">hello@claspuro.com</span>
+                <span className="font-medium">info@claspuro.com</span>
               </a>
               <a href="tel:+250788123456" className="flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors duration-300 group">
                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors duration-300">

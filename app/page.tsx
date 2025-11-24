@@ -211,19 +211,19 @@ const ProductPreviewSection = () => {
       name: "Ruled Notebooks",
       description: "Perfect for structured note-taking",
       image: "/ruled-notebook-lined-pages.jpg",
-      price: "$12"
+      price: "$3"
     },
     {
       name: "Plain Notebooks",
       description: "Ideal for sketching and creativity",
       image: "/plain-blank-notebook-pages.jpg",
-      price: "$14"
+      price: "$3"
     },
     {
       name: "Grid Notebooks",
       description: "Great for technical work",
       image: "/grid-notebook-squared-paper.jpg",
-      price: "$13"
+      price: "$3"
     }
   ]
   

@@ -446,7 +446,7 @@ const products = [
             "A4 size",
             "Premium finish"
         ],
-        price: "$12",
+        price: "$3",
         image: "/ruled-notebook-lined-pages.jpg",
         badge: "Popular"
     },
@@ -461,7 +461,7 @@ const products = [
             "A4 size",
             "Ultra smooth"
         ],
-        price: "$14",
+        price: "$3",
         image: "/plain-blank-notebook-pages.jpg",
         badge: "Best Seller"
     },
@@ -476,7 +476,7 @@ const products = [
             "A4 size",
             "Professional"
         ],
-        price: "$13",
+        price: "$3",
         image: "/grid-notebook-squared-paper.jpg",
         badge: "New"
     }
