@@ -79,6 +79,42 @@ High-level overview of the most relevant folders:
 
 ---
 
+## Architecture
+
+At a high level, the app follows the **Next.js App Router** pattern:
+
+- **Root layout**
+  - `app/layout.tsx` wraps all pages with global `<html>` / `<body>`, metadata, fonts, and shared layout.
+  - Injects the top-level **Navigation** and **Footer** so they are consistent across routes.
+
+- **Route segments**
+  - Each file in `app/*/page.tsx` is a **server component** page responsible for:
+    - Defining page-level metadata (where needed).
+    - Composing page-specific sections using shared components.
+
+- **Shared presentation components**
+  - Components in `components/` (e.g., `hero-section`, `page-hero`, `products-showcase`, `mission-section`, `section-badge`, `primary-button`) encapsulate reusable UI patterns and styling.
+  - Some components are **client components** (e.g., interactive elements like FAQ accordions or animated sections) and are imported where interactivity is required.
+
+- **Styling and assets**
+  - Tailwind utilities are used inline in JSX for most styling.
+  - Global animations and any custom CSS live in `styles/globals.css`.
+  - Images and icons are served from `public/` and referenced via `/...` paths.
+
+This separation keeps pages mostly declarative while pushing design details and behavior into reusable components.
+
+### Request flow (simplified)
+
+```text
+Browser request
+  → app/layout.tsx (root layout, metadata, Navigation, Footer)
+    → app/[route]/page.tsx (page-level composition)
+      → components/* (heroes, sections, cards, badges, buttons)
+        → styles/globals.css + Tailwind utilities (styling & animations)
+```
+
+---
+
 ## Available Routes
 
 - `/` – Home
