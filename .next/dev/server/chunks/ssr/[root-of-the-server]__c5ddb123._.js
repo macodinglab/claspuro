@@ -952,7 +952,7 @@ const EnhancedContactSection = ()=>{
             value: "hello@claspuro.com",
             subtext: "We'll respond within 24 hours",
             color: "from-emerald-500 to-green-600",
-            href: "mailto:hello@claspuro.com"
+            href: "mailto:info@claspuro.com"
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"],
