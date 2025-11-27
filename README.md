@@ -160,6 +160,92 @@ npm start
 
 This compiles the Next.js app for production and starts the optimized server.
 
+### Running with Docker
+
+If you prefer to run the site in a container, a multi-stage `Dockerfile` is included at the project root.
+
+**Build the image:**
+
+```bash
+docker build -t claspuro-frontend .
+```
+
+**Run the container:**
+
+```bash
+docker run --rm -e PORT=3000 -p 3000:3000 claspuro-frontend
+```
+
+Then open **http://localhost:3000** in your browser.
+
+To pass environment variables (for example `NEXT_PUBLIC_*` values), you can use `-e` flags or an env file:
+
+```bash
+docker run --rm -e PORT=3000 -p 3000:3000 \
+  -e NEXT_PUBLIC_SOME_KEY=value \
+  claspuro-frontend
+```
+
+### Docker Compose
+
+For easier local usage, a `docker-compose.yml` is included at the project root.
+
+**Start (build + run):**
+
+```bash
+docker compose up --build
+```
+
+or, depending on your Docker version:
+
+```bash
+docker-compose up --build
+```
+
+The app will be available at **http://localhost:3000**.
+
+**Run in the background:**
+
+```bash
+docker compose up -d --build
+```
+
+**Stop the containers:**
+
+```bash
+docker compose down
+```
+
+Environment variables for the `web` service can be stored in an optional `.env.docker` file, which is referenced by `docker-compose.yml` via `env_file`.
+
+### Docker Hub deployment
+
+To publish a production image to Docker Hub (under `andremugabo/claspuro-frontend`):
+
+**Log in to Docker Hub:**
+
+```bash
+docker login
+```
+
+**Build the image with the Docker Hub tag:**
+
+```bash
+docker build -t andremugabo/claspuro-frontend:latest .
+```
+
+**Push the image:**
+
+```bash
+docker push andremugabo/claspuro-frontend:latest
+```
+
+Once pushed, you (or anyone else) can run the image directly from Docker Hub:
+
+```bash
+docker run --rm -e PORT=3000 -p 3000:3000 andremugabo/claspuro-frontend:latest
+```
+
 ---
 
 ## Customization

@@ -1,0 +1,13 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: claspuro-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      # Add any environment variables you need here, e.g.:
+      # NEXT_PUBLIC_SOME_KEY: "value"
+      NODE_ENV: production
+    restart: unless-stopped

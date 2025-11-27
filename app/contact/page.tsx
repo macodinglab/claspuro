@@ -58,7 +58,7 @@ const EnhancedContactSection = () => {
     {
       icon: Mail,
       title: "Email Us",
-      value: "hello@claspuro.com",
+      value: "info@claspuro.com",
       subtext: "We'll respond within 24 hours",
       color: "from-emerald-500 to-green-600",
       href: "mailto:info@claspuro.com"
