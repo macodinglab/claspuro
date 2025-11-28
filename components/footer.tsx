@@ -15,7 +15,6 @@ export default function Footer() {
   const company = [
     { href: "#", label: "Privacy Policy" },
     { href: "#", label: "Terms of Service" },
-    { href: "#", label: "Sustainability Report" },
     { href: "/faq", label: "FAQ" }
   ]
 
@@ -103,11 +102,11 @@ export default function Footer() {
                 </div>
                 <span className="font-medium">info@claspuro.com</span>
               </a>
-              <a href="tel:+250788123456" className="flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors duration-300 group">
+              <a href="tel:+250784614727" className="flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors duration-300 group">
                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors duration-300">
                   <Phone size={18} />
                 </div>
-                <span className="font-medium">+250 788 123 456</span>
+                <span className="font-medium">+250 784 614 727</span>
               </a>
               <div className="flex items-center gap-3 text-gray-400">
                 <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center">

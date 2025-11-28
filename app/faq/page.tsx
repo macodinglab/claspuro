@@ -79,10 +79,6 @@ export default function FAQPage() {
       color: "from-blue-500 to-indigo-600",
       faqs: [
         {
-          question: "Where are Claspuro notebooks produced?",
-          answer: "Claspuro is based in Rwanda and works with banana-growing regions across the country to source agricultural banana waste and transform it into sustainable paper. This model supports local communities in and around Kigali and reduces environmental impact in East Africa."
-        },
-        {
           question: "How is banana waste converted into paper?",
           answer: "We use an eco-friendly process that extracts fiber from banana peels and stems, processes it into pulp, and transforms it into high-quality paper—all without harmful chemicals or excessive water use."
         }
@@ -98,17 +94,9 @@ export default function FAQPage() {
           answer: "Yes. We offer bulk orders and can discuss custom cover designs or branding for schools, offices, NGOs, and corporate gifting. Please reach out via our Contact page to discuss your requirements."
         },
         {
-          question: "Do you ship outside Rwanda?",
-          answer: "We are growing our distribution beyond Rwanda and the wider East African region. For regional or international shipping inquiries and pricing in local or international currencies, please contact us so we can confirm the best options for your location."
-        },
-        {
           question: "What is the minimum order quantity for bulk purchases?",
           answer: "Bulk orders typically start at 50 notebooks, but we're flexible based on your needs. Contact us to discuss custom quantities and pricing for your organization."
         },
-        {
-          question: "How long does delivery take?",
-          answer: "Within Rwanda, delivery typically takes 2-5 business days. For international orders, shipping time varies by location. We'll provide specific timelines when you place your order."
-        }
       ]
     }
   ]

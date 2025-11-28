@@ -66,10 +66,10 @@ const EnhancedContactSection = () => {
     {
       icon: Phone,
       title: "Call Us",
-      value: "+250 788 123 456",
+      value: "+250 784 614 727",
       subtext: "Mon-Fri 9AM-5PM EAT",
       color: "from-blue-500 to-indigo-600",
-      href: "tel:+250788123456"
+      href: "tel:+250784614727"
     },
     {
       icon: MapPin,
@@ -198,7 +198,7 @@ const EnhancedContactSection = () => {
                   <input
                     type="tel"
                     className="w-full px-4 py-3 rounded-xl border-2 border-gray-300 hover:border-emerald-300 focus:border-emerald-500 focus:shadow-lg transition-all duration-300 outline-none"
-                    placeholder="+250 788 123 456"
+                    placeholder="+250 784 614 727"
                   />
                 </div>
                 
