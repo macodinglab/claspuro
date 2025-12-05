@@ -70,10 +70,10 @@ const OurStorySection = () => (
           
           <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
             <p>
-              Claspuro was born from a simple observation: Rwanda produces tons of banana waste annually, while traditional paper manufacturing continues to devastate our forests. We asked ourselves—what if we could solve both problems at once?
+            Claspuro was born from a simple observation: World  produces over 40million tons of banana waste annually, while traditional paper manufacturing continues to devastate our forests. We asked ourselves—what if we could solve both problems at once?
             </p>
             <p>
-              Founded in 2023, we began with a vision to revolutionize the stationery industry by creating premium notebooks from 100% upcycled banana peels. What started as an experiment in sustainability has grown into a movement.
+            Founded in 2025, we began with a vision to revolutionize the stationery industry by creating premium notebooks from 100% upcycled banana peels. What started as an experiment in sustainability has grown into a movement.
             </p>
             <p className="font-semibold text-emerald-700">
               Today, every Claspuro notebook represents not just a commitment to quality, but a promise to our planet and future generations.

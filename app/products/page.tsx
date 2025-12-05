@@ -238,7 +238,7 @@ const SustainabilitySection = () => (
               Each Claspuro notebook represents our commitment to environmental restoration. By choosing banana peel paper, you're actively participating in reducing deforestation and supporting a circular economy.
             </p>
             <p className="font-semibold text-white">
-              Every notebook sold saves approximately 0.5kg of wood and prevents agricultural waste from polluting our environment.
+              Each tone of our paper saves approximately 17 trees and prevents agricultural waste from pollung our environment.
             </p>
           </div>
           
