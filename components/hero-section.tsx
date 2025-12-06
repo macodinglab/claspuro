@@ -149,7 +149,7 @@ export default function HeroSection() {
         >
           <div className="group text-center bg-white/80 backdrop-blur-md p-8 rounded-2xl border-2 border-emerald-200/50 hover:border-emerald-400 hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-2">
             <div className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-green-600 mb-3">25%</div>
-            <p className="text-sm md:text-base text-gray-700 font-semibold">Tree Reduction Goal</p>
+            <p className="text-sm md:text-base text-gray-700 font-semibold">Trees cutting reduction goal</p>
             <div className="mt-2 h-1 w-0 group-hover:w-full bg-gradient-to-r from-emerald-500 to-green-500 mx-auto transition-all duration-500 rounded-full"></div>
           </div>
           <div className="group text-center bg-white/80 backdrop-blur-md p-8 rounded-2xl border-2 border-green-200/50 hover:border-green-400 hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-2">

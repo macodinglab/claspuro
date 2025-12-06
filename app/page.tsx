@@ -151,7 +151,7 @@ const HowItWorksSection = () => {
 // Impact Stats Section
 const ImpactStatsSection = () => {
   const stats = [
-    { icon: TrendingUp, value: "25%", label: "Trees cutting reduction gaol ", subtext: "Annual target" },
+    { icon: TrendingUp, value: "25%", label: "Trees cutting reduction goal ", subtext: "Annual target" },
     { icon: Users, value: "1000+", label: "Happy Customers", subtext: "And growing" },
     { icon: Globe, value: "50+", label: "Communities Supported", subtext: "Across Rwanda" },
     { icon: Award, value: "100%", label: "Biodegradable", subtext: "Eco-certified" }
