@@ -70,41 +70,41 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: "Claspuro - Eco-Friendly Banana Peel Notebooks",
-    description: "Premium sustainable A4 notebooks made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
+    title: "Claspuro - Eco-Friendly Banana Peel Notebooks and Papers",
+    description: "Premium sustainable A4 notebooks and papers made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
     metadataBase: new URL("https://claspuro.com"),
     alternates: {
         canonical: "https://claspuro.com"
     },
     keywords: [
         "Claspuro",
-        "eco friendly notebooks",
-        "banana peel notebooks",
+        "eco friendly notebooks and papers",
+        "banana peel notebooks and papers",
         "sustainable stationery",
-        "recycled paper notebooks",
-        "biodegradable A4 notebooks",
+        "recycled paper notebooks and papers",
+        "biodegradable A4 notebooks and papers",
         "eco conscious school supplies"
     ],
     openGraph: {
         type: "website",
         url: "https://claspuro.com",
         siteName: "Claspuro",
-        title: "Claspuro - Eco-Friendly Banana Peel Notebooks",
-        description: "Premium sustainable A4 notebooks made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
+        title: "Claspuro - Eco-Friendly Banana Peel Notebooks and Papers",
+        description: "Premium sustainable A4 notebooks and papers made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
         locale: "en_US",
         images: [
             {
                 url: "/og-banner.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Claspuro eco-friendly banana peel notebooks"
+                alt: "Claspuro eco-friendly banana peel notebooks and papers"
             }
         ]
     },
     twitter: {
         card: "summary_large_image",
-        title: "Claspuro - Eco-Friendly Banana Peel Notebooks",
-        description: "Premium sustainable A4 notebooks made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
+        title: "Claspuro - Eco-Friendly Banana Peel Notebooks and Papers",
+        description: "Premium sustainable A4 notebooks and papers made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
         images: [
             "/og-banner.jpg"
         ]

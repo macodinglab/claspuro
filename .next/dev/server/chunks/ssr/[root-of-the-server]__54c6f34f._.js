@@ -845,7 +845,7 @@ const FeaturesSection = ()=>{
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$leaf$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Leaf$3e$__["Leaf"],
             title: "100% Eco-Friendly",
-            description: "Every notebook is crafted from upcycled banana peels, saving trees and reducing waste.",
+            description: "Every notebook and paper is crafted from upcycled banana peels, saving trees and reducing waste.",
             color: "from-emerald-500 to-green-600",
             stat: "Zero trees cut"
         },
@@ -918,7 +918,7 @@ const FeaturesSection = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 mb-4",
                                 children: [
-                                    "Sustainable Notebooks,",
+                                    "Sustainable Notebooks and Papers,",
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600",
@@ -936,7 +936,7 @@ const FeaturesSection = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-lg text-gray-600 max-w-3xl mx-auto",
-                                children: "Every Claspuro notebook represents a commitment to environmental restoration and premium quality"
+                                children: "Every Claspuro notebook and paper represents a commitment to environmental restoration and premium quality"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 51,
@@ -1043,14 +1043,14 @@ const HowItWorksSection = ()=>{
         },
         {
             number: "03",
-            title: "Craft Premium Notebooks",
-            description: "Expert craftsmanship transforms the fiber into beautiful, durable A4 notebooks ready for your ideas.",
+            title: "Craft Premium Notebooks and Papers",
+            description: "Expert craftsmanship transforms the fiber into beautiful, durable A4 notebooks and papers ready for your ideas.",
             color: "from-blue-500 to-indigo-600"
         },
         {
             number: "04",
             title: "Deliver Sustainability",
-            description: "Your notebook arrives, representing zero trees cut and a positive step toward environmental restoration.",
+            description: "Your notebook and paper arrives, representing zero trees cut and a positive step toward environmental restoration.",
             color: "from-purple-500 to-pink-600"
         }
     ];
@@ -1083,7 +1083,7 @@ const HowItWorksSection = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-600 max-w-2xl mx-auto",
-                            children: "Our innovative process transforms banana peels into premium notebooks"
+                            children: "Our innovative process transforms banana peels into premium notebooks and papers"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 121,
@@ -1169,7 +1169,7 @@ const ImpactStatsSection = ()=>{
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"],
             value: "25%",
-            label: "Trees cutting reduction gaol ",
+            label: "Trees cutting reduction goal ",
             subtext: "Annual target"
         },
         {
@@ -1325,19 +1325,19 @@ const ImpactStatsSection = ()=>{
 const ProductPreviewSection = ()=>{
     const products = [
         {
-            name: "Ruled Notebooks",
+            name: "Ruled Notebooks and Papers",
             description: "Perfect for structured note-taking",
             image: "/ruled-notebook-lined-pages.jpg",
             price: "$3"
         },
         {
-            name: "Plain Notebooks",
+            name: "Plain Notebooks and Papers",
             description: "Ideal for sketching and creativity",
             image: "/plain-blank-notebook-pages.jpg",
             price: "$3"
         },
         {
-            name: "Grid Notebooks",
+            name: "Grid Notebooks and Papers",
             description: "Great for technical work",
             image: "/grid-notebook-squared-paper.jpg",
             price: "$3"
@@ -1372,7 +1372,7 @@ const ProductPreviewSection = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-600 max-w-2xl mx-auto mb-8",
-                            children: "Premium A4 notebooks in three versatile formats"
+                            children: "Premium A4 notebooks and papers in three versatile formats"
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 240,
@@ -1446,7 +1446,7 @@ const ProductPreviewSection = ()=>{
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-sm text-gray-500",
-                                                    children: "per notebook"
+                                                    children: "per notebook and paper"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/page.tsx",
                                                     lineNumber: 266,
@@ -1523,13 +1523,13 @@ const ProductPreviewSection = ()=>{
 const TestimonialsSection = ()=>{
     const testimonials = [
         {
-            quote: "Switching to Claspuro notebooks was the best decision. Quality is amazing and I feel good about helping the environment!",
+            quote: "Switching to Claspuro notebooks and papers was the best decision. Quality is amazing and I feel good about helping the environment!",
             author: "Marie K.",
             role: "University Student",
             rating: 5
         },
         {
-            quote: "Our school ordered 500 notebooks for students. The quality exceeded expectations and the kids love the eco-story behind them.",
+            quote: "Our school ordered 500 notebooks and papers for students. The quality exceeded expectations and the kids love the eco-story behind them.",
             author: "David M.",
             role: "School Administrator",
             rating: 5
@@ -1740,7 +1740,7 @@ const CTASection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proj
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xl text-emerald-50 mb-10 max-w-2xl mx-auto",
-                                children: "Join the sustainable stationery revolution. Every notebook makes an impact."
+                                children: "Join the sustainable stationery revolution. Every notebook and paper makes an impact."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 380,

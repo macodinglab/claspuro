@@ -843,8 +843,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 const metadata = {
-    title: "Eco-Friendly Banana Peel Notebooks | Claspuro Products",
-    description: "Explore Claspuro's premium A4 eco-friendly notebooks made from banana peels, including ruled, plain, and grid options for students, professionals, and creatives."
+    title: "Eco-Friendly Banana Peel Notebooks and Papers | Claspuro Products",
+    description: "Explore Claspuro's premium A4 eco-friendly notebooks and papers made from banana peels, including ruled, plain, and grid options for students, professionals, and creatives."
 };
 // Enhanced Page Hero
 const EnhancedPageHero = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -928,7 +928,7 @@ const EnhancedPageHero = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-xl text-emerald-50 max-w-3xl mx-auto leading-relaxed mb-8",
-                        children: "Discover premium A4 notebooks crafted from 100% upcycled banana waste. Sustainable, durable, and designed for everyday excellence."
+                        children: "Discover premium A4 notebooks and papers crafted from 100% upcycled banana waste. Sustainable, durable, and designed for everyday excellence."
                     }, void 0, false, {
                         fileName: "[project]/app/products/page.tsx",
                         lineNumber: 42,
@@ -1177,7 +1177,7 @@ const WhyChooseSection = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-lg text-gray-600 max-w-3xl mx-auto",
-                                children: "More than just notebooks—a commitment to quality, sustainability, and positive environmental impact"
+                                children: "More than just notebooks and papers—a commitment to quality, sustainability, and positive environmental impact"
                             }, void 0, false, {
                                 fileName: "[project]/app/products/page.tsx",
                                 lineNumber: 118,
@@ -1311,7 +1311,7 @@ const BenefitsSection = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-gray-600 max-w-2xl mx-auto",
-                            children: "Whether you're a student, professional, or creative—our notebooks adapt to your needs"
+                            children: "Whether you're a student, professional, or creative—our notebooks and papers adapt to your needs"
                         }, void 0, false, {
                             fileName: "[project]/app/products/page.tsx",
                             lineNumber: 184,
@@ -1450,7 +1450,7 @@ const SustainabilitySection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__modul
                                     className: "space-y-4 text-emerald-50 text-lg leading-relaxed",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Each Claspuro notebook represents our commitment to environmental restoration. By choosing banana peel paper, you're actively participating in reducing deforestation and supporting a circular economy."
+                                            children: "Each Claspuro notebook and paper represents our commitment to environmental restoration. By choosing banana peel paper, you're actively participating in reducing deforestation and supporting a circular economy."
                                         }, void 0, false, {
                                             fileName: "[project]/app/products/page.tsx",
                                             lineNumber: 237,
@@ -1458,7 +1458,7 @@ const SustainabilitySection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__modul
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "font-semibold text-white",
-                                            children: "Every notebook sold saves approximately 0.5kg of wood and prevents agricultural waste from polluting our environment."
+                                            children: "Each tone of our paper saves approximately 17 trees and prevents agricultural waste from pollung our environment."
                                         }, void 0, false, {
                                             fileName: "[project]/app/products/page.tsx",
                                             lineNumber: 240,
@@ -1588,13 +1588,13 @@ const SustainabilitySection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__modul
 const TestimonialsSection = ()=>{
     const testimonials = [
         {
-            quote: "These notebooks are incredible! The quality is outstanding, and knowing they're eco-friendly makes me feel great about every purchase.",
+            quote: "These notebooks and papers are incredible! The quality is outstanding, and knowing they're eco-friendly makes me feel great about every purchase.",
             author: "Sarah M.",
             role: "University Student",
             rating: 5
         },
         {
-            quote: "We switched our entire office to Claspuro notebooks. Our team loves them, and it aligns perfectly with our sustainability goals.",
+            quote: "We switched our entire office to Claspuro notebooks and papers. Our team loves them, and it aligns perfectly with our sustainability goals.",
             author: "James K.",
             role: "Corporate Manager",
             rating: 5
@@ -1781,7 +1781,7 @@ const OrderingInfoSection = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-lg text-gray-600",
-                                children: "Getting your eco-friendly notebooks is simple"
+                                children: "Getting your eco-friendly notebooks and papers is simple"
                             }, void 0, false, {
                                 fileName: "[project]/app/products/page.tsx",
                                 lineNumber: 355,

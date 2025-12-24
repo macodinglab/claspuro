@@ -27,14 +27,14 @@ export default function HeroSection() {
 
   useEffect(() => {
     setIsVisible(true)
-    
+
     const handleMouseMove = (e: { clientX: number; clientY: number }) => {
       setMousePosition({
         x: (e.clientX / window.innerWidth - 0.5) * 20,
         y: (e.clientY / window.innerHeight - 0.5) * 20
       })
     }
-    
+
     window.addEventListener('mousemove', handleMouseMove)
     return () => window.removeEventListener('mousemove', handleMouseMove)
   }, [])
@@ -54,7 +54,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/90 to-emerald-50/95"></div>
       </div>
       {/* Enhanced animated background blobs */}
-      <div 
+      <div
         className="absolute top-10 right-5 w-96 h-96 bg-gradient-to-br from-emerald-300/30 to-green-400/20 rounded-full blur-3xl animate-pulse"
         style={{
           transform: `translate(${mousePosition.x * 0.5}px, ${mousePosition.y * 0.5}px)`,
@@ -77,7 +77,7 @@ export default function HeroSection() {
           transition: 'transform 0.3s ease-out'
         }}
       ></div>
-      
+
       {/* Floating particles (deterministic for consistent hydration) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {PARTICLES.map((p, i) => (
@@ -111,7 +111,7 @@ export default function HeroSection() {
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 animate-hero-gradient bg-[length:200%_auto] mb-2">
             Transforming Banana Peels
           </span>
-          <span className="block text-emerald-900">into Premium Notebooks</span>
+          <span className="block text-emerald-900">into Premium Notebooks and Papers</span>
         </h1>
 
         {/* Enhanced Description */}
@@ -119,7 +119,7 @@ export default function HeroSection() {
           className={`text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-12 transition-all duration-700 leading-relaxed font-medium ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           style={{ transitionDelay: "200ms" }}
         >
-          Eco-conscious A4 notebooks crafted from upcycled banana waste. Premium quality, biodegradable, and
+          Eco-conscious A4 notebooks and papers crafted from upcycled banana waste. Premium quality, biodegradable, and
           purpose-driven for students, schools, and changemakers.
         </p>
 

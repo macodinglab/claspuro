@@ -10,7 +10,7 @@ const FeaturesSection = () => {
     {
       icon: Leaf,
       title: "100% Eco-Friendly",
-      description: "Every notebook is crafted from upcycled banana peels, saving trees and reducing waste.",
+      description: "Every notebook and paper is crafted from upcycled banana peels, saving trees and reducing waste.",
       color: "from-emerald-500 to-green-600",
       stat: "Zero trees cut"
     },
@@ -29,30 +29,30 @@ const FeaturesSection = () => {
       stat: "A4 standard size"
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
       <div className="absolute top-20 left-10 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-green-200/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-800 rounded-full mb-6 border border-emerald-200/50 shadow-lg backdrop-blur-sm">
             <Sparkles size={18} className="animate-pulse text-emerald-600" />
             <span className="text-sm font-semibold">Why Choose Claspuro</span>
           </div>
-          
+
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 mb-4">
-            Sustainable Notebooks,{" "}
+            Sustainable Notebooks and Papers,{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">
               Extraordinary Impact
             </span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Every Claspuro notebook represents a commitment to environmental restoration and premium quality
+            Every Claspuro notebook and paper represents a commitment to environmental restoration and premium quality
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => {
             const Icon = feature.icon
@@ -99,18 +99,18 @@ const HowItWorksSection = () => {
     },
     {
       number: "03",
-      title: "Craft Premium Notebooks",
-      description: "Expert craftsmanship transforms the fiber into beautiful, durable A4 notebooks ready for your ideas.",
+      title: "Craft Premium Notebooks and Papers",
+      description: "Expert craftsmanship transforms the fiber into beautiful, durable A4 notebooks and papers ready for your ideas.",
       color: "from-blue-500 to-indigo-600"
     },
     {
       number: "04",
       title: "Deliver Sustainability",
-      description: "Your notebook arrives, representing zero trees cut and a positive step toward environmental restoration.",
+      description: "Your notebook and paper arrives, representing zero trees cut and a positive step toward environmental restoration.",
       color: "from-purple-500 to-pink-600"
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/30 to-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -119,10 +119,10 @@ const HowItWorksSection = () => {
             From <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">Waste</span> to Wonder
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Our innovative process transforms banana peels into premium notebooks
+            Our innovative process transforms banana peels into premium notebooks and papers
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, index) => (
             <div
@@ -156,7 +156,7 @@ const ImpactStatsSection = () => {
     { icon: Globe, value: "50+", label: "Communities Supported", subtext: "Across Rwanda" },
     { icon: Award, value: "100%", label: "Biodegradable", subtext: "Eco-certified" }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-600 via-green-600 to-teal-600 overflow-hidden">
       {/* Background pattern */}
@@ -166,11 +166,11 @@ const ImpactStatsSection = () => {
           backgroundSize: '40px 40px'
         }}></div>
       </div>
-      
+
       {/* Floating decorative elements */}
       <div className="absolute top-10 right-10 w-40 h-40 bg-white/10 rounded-full blur-2xl animate-pulse"></div>
       <div className="absolute bottom-10 left-10 w-48 h-48 bg-white/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black text-white mb-4">
@@ -180,7 +180,7 @@ const ImpactStatsSection = () => {
             Our commitment to sustainability shows in the numbers
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-4 gap-6">
           {stats.map((stat, index) => {
             const Icon = stat.icon
@@ -208,25 +208,25 @@ const ImpactStatsSection = () => {
 const ProductPreviewSection = () => {
   const products = [
     {
-      name: "Ruled Notebooks",
+      name: "Ruled Notebooks and Papers",
       description: "Perfect for structured note-taking",
       image: "/ruled-notebook-lined-pages.jpg",
       price: "$3"
     },
     {
-      name: "Plain Notebooks",
+      name: "Plain Notebooks and Papers",
       description: "Ideal for sketching and creativity",
       image: "/plain-blank-notebook-pages.jpg",
       price: "$3"
     },
     {
-      name: "Grid Notebooks",
+      name: "Grid Notebooks and Papers",
       description: "Great for technical work",
       image: "/grid-notebook-squared-paper.jpg",
       price: "$3"
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -238,10 +238,10 @@ const ProductPreviewSection = () => {
             </span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            Premium A4 notebooks in three versatile formats
+            Premium A4 notebooks and papers in three versatile formats
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {products.map((product, index) => (
             <div
@@ -263,13 +263,13 @@ const ProductPreviewSection = () => {
                 <p className="text-gray-600 mb-4">{product.description}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-black text-emerald-600">{product.price}</span>
-                  <span className="text-sm text-gray-500">per notebook</span>
+                  <span className="text-sm text-gray-500">per notebook and paper</span>
                 </div>
               </div>
             </div>
           ))}
         </div>
-        
+
         <div className="text-center">
           <Link
             href="/products"
@@ -288,13 +288,13 @@ const ProductPreviewSection = () => {
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "Switching to Claspuro notebooks was the best decision. Quality is amazing and I feel good about helping the environment!",
+      quote: "Switching to Claspuro notebooks and papers was the best decision. Quality is amazing and I feel good about helping the environment!",
       author: "Marie K.",
       role: "University Student",
       rating: 5
     },
     {
-      quote: "Our school ordered 500 notebooks for students. The quality exceeded expectations and the kids love the eco-story behind them.",
+      quote: "Our school ordered 500 notebooks and papers for students. The quality exceeded expectations and the kids love the eco-story behind them.",
       author: "David M.",
       role: "School Administrator",
       rating: 5
@@ -306,7 +306,7 @@ const TestimonialsSection = () => {
       rating: 5
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/20 to-white">
       <div className="max-w-7xl mx-auto">
@@ -321,7 +321,7 @@ const TestimonialsSection = () => {
             See what our customers are saying about their Claspuro experience
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
@@ -329,17 +329,17 @@ const TestimonialsSection = () => {
               className="bg-white rounded-2xl p-8 border-2 border-gray-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-xl relative"
             >
               <Quote size={32} className="text-emerald-200 absolute top-6 right-6" />
-              
+
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} size={18} className="text-amber-400 fill-amber-400" />
                 ))}
               </div>
-              
+
               <p className="text-gray-700 leading-relaxed mb-6 italic">
                 "{testimonial.quote}"
               </p>
-              
+
               <div className="border-t pt-4">
                 <p className="font-black text-gray-900">{testimonial.author}</p>
                 <p className="text-sm text-gray-600">{testimonial.role}</p>
@@ -364,23 +364,23 @@ const CTASection = () => (
             backgroundSize: '40px 40px'
           }}></div>
         </div>
-        
+
         {/* Floating decorative elements */}
         <div className="absolute top-8 right-8 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
         <div className="absolute bottom-8 left-8 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
-        
+
         <div className="relative z-10">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl mb-6">
             <BookOpen size={40} className="text-white" />
           </div>
-          
+
           <h2 className="text-4xl sm:text-5xl font-black text-white mb-6">
             Ready to Make a Difference?
           </h2>
           <p className="text-xl text-emerald-50 mb-10 max-w-2xl mx-auto">
-            Join the sustainable stationery revolution. Every notebook makes an impact.
+            Join the sustainable stationery revolution. Every notebook and paper makes an impact.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link
               href="/products"

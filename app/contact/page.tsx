@@ -7,7 +7,7 @@ import { Mail, Phone, MapPin, Clock, Send, MessageSquare, Building2, Users, Arro
 export const metadata: Metadata = {
   title: "Contact Claspuro | Eco-Friendly Notebook Orders & Partnerships",
   description:
-    "Contact Claspuro for eco-friendly banana peel notebook inquiries, bulk orders, school and office partnerships, or sustainability collaborations.",
+    "Contact Claspuro for eco-friendly banana peel notebook and paper inquiries, bulk notebook and paper orders, school and office partnerships, or sustainability collaborations.",
 }
 
 // Enhanced Page Hero Component
@@ -22,26 +22,26 @@ const EnhancedPageHero = () => (
       />
       <div className="absolute inset-0 bg-gradient-to-b from-emerald-900/80 via-emerald-900/70 to-emerald-900/80"></div>
     </div>
-    
+
     {/* Decorative animated blobs */}
     <div className="absolute top-20 right-20 w-64 h-64 bg-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
     <div className="absolute bottom-20 left-20 w-80 h-80 bg-green-400/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-    
+
     {/* Hero Content */}
     <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/20 backdrop-blur-md text-white text-sm font-semibold mb-6 border border-white/30 hover:bg-white/30 transition-all duration-300">
         <Mail size={20} />
         <span>We'd love to hear from you</span>
       </div>
-      
+
       <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white mb-6 leading-tight">
         Get In Touch
       </h1>
-      
+
       <p className="text-xl text-emerald-50 max-w-2xl mx-auto leading-relaxed">
-        Questions, collaborations, or bulk notebook orders—we're here to help make your eco-friendly vision a reality.
+        Questions, collaborations, or bulk notebook and paper orders—we're here to help make your eco-friendly vision a reality.
       </p>
-      
+
       {/* Breadcrumb */}
       <div className="mt-8 flex items-center justify-center gap-2 text-emerald-100">
         <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -80,7 +80,7 @@ const EnhancedContactSection = () => {
       href: "#location"
     }
   ]
-  
+
   const inquiryTypes = [
     {
       icon: Building2,
@@ -100,7 +100,7 @@ const EnhancedContactSection = () => {
   ]
 
   const benefits = [
-    "100% eco-friendly banana peel notebooks",
+    "100% eco-friendly banana peel notebooks and papers",
     "Custom branding for bulk orders",
     "Fast & reliable shipping across Rwanda",
     "Dedicated customer support",
@@ -112,7 +112,7 @@ const EnhancedContactSection = () => {
       {/* Decorative background */}
       <div className="absolute top-20 left-10 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-green-200/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Contact Info Cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-20">
@@ -134,7 +134,7 @@ const EnhancedContactSection = () => {
             )
           })}
         </div>
-        
+
         {/* Inquiry Types */}
         <div className="mb-16">
           <div className="text-center mb-10">
@@ -143,7 +143,7 @@ const EnhancedContactSection = () => {
               <span className="text-sm font-semibold">How Can We Help?</span>
             </div>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-6 mb-12">
             {inquiryTypes.map((type, index) => {
               const Icon = type.icon
@@ -169,7 +169,7 @@ const EnhancedContactSection = () => {
               Send Us A Message
             </h2>
             <p className="text-gray-600 mb-8">Fill out the form below and we'll get back to you soon.</p>
-            
+
             {/* Form Fields Layout */}
             <div className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
@@ -181,7 +181,7 @@ const EnhancedContactSection = () => {
                     placeholder="John Doe"
                   />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-bold text-gray-700 mb-2">Email Address</label>
                   <input
@@ -191,7 +191,7 @@ const EnhancedContactSection = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-bold text-gray-700 mb-2">Phone Number</label>
@@ -201,7 +201,7 @@ const EnhancedContactSection = () => {
                     placeholder="+250 784 614 727"
                   />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-bold text-gray-700 mb-2">Subject</label>
                   <select className="w-full px-4 py-3 rounded-xl border-2 border-gray-300 hover:border-emerald-300 focus:border-emerald-500 focus:shadow-lg transition-all duration-300 outline-none">
@@ -213,7 +213,7 @@ const EnhancedContactSection = () => {
                   </select>
                 </div>
               </div>
-              
+
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-2">Your Message</label>
                 <textarea
@@ -222,21 +222,21 @@ const EnhancedContactSection = () => {
                   placeholder="Tell us about your inquiry..."
                 />
               </div>
-              
+
               <button className="w-full bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold py-4 rounded-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2 group">
                 <span>Send Message</span>
                 <Send size={20} className="group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </div>
           </div>
-          
+
           {/* Right: Additional Info */}
           <div className="space-y-8">
             {/* Why Choose Us Card */}
             <div className="bg-gradient-to-br from-emerald-600 via-green-600 to-teal-600 rounded-3xl p-8 text-white shadow-2xl relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
               <div className="absolute bottom-0 left-0 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
-              
+
               <div className="relative z-10">
                 <h3 className="text-2xl font-black mb-6">Why Choose Claspuro?</h3>
                 <div className="space-y-4">
@@ -251,7 +251,7 @@ const EnhancedContactSection = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Business Hours Card */}
             <div className="bg-white rounded-2xl p-8 border-2 border-gray-200 shadow-lg">
               <div className="flex items-center gap-3 mb-6">

@@ -6,9 +6,9 @@ import Footer from "@/components/footer"
 import { BookOpen, Leaf, Shield, Sparkles, Star, CheckCircle2, Package, Truck, Award, Users, ArrowRight, Quote } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Eco-Friendly Banana Peel Notebooks | Claspuro Products",
+  title: "Eco-Friendly Banana Peel Notebooks and Papers | Claspuro Products",
   description:
-    "Explore Claspuro's premium A4 eco-friendly notebooks made from banana peels, including ruled, plain, and grid options for students, professionals, and creatives.",
+    "Explore Claspuro's premium A4 eco-friendly notebooks and papers made from banana peels, including ruled, plain, and grid options for students, professionals, and creatives.",
 }
 
 // Enhanced Page Hero
@@ -23,26 +23,26 @@ const EnhancedPageHero = () => (
       />
       <div className="absolute inset-0 bg-gradient-to-b from-emerald-900/85 via-green-900/80 to-emerald-900/85"></div>
     </div>
-    
+
     {/* Decorative elements */}
     <div className="absolute top-20 right-20 w-72 h-72 bg-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
     <div className="absolute bottom-20 left-20 w-80 h-80 bg-green-400/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-    
+
     {/* Hero Content */}
     <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/20 backdrop-blur-md text-white text-sm font-semibold mb-6 border border-white/30 hover:bg-white/30 transition-all duration-300">
         <BookOpen size={20} />
         <span>Premium Eco-Friendly Stationery</span>
       </div>
-      
+
       <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white mb-6 leading-tight">
         Our Products
       </h1>
-      
+
       <p className="text-xl text-emerald-50 max-w-3xl mx-auto leading-relaxed mb-8">
-        Discover premium A4 notebooks crafted from 100% upcycled banana waste. Sustainable, durable, and designed for everyday excellence.
+        Discover premium A4 notebooks and papers crafted from 100% upcycled banana waste. Sustainable, durable, and designed for everyday excellence.
       </p>
-      
+
       {/* Quick Stats */}
       <div className="flex flex-wrap items-center justify-center gap-8 mb-8">
         <div className="text-center">
@@ -60,7 +60,7 @@ const EnhancedPageHero = () => (
           <p className="text-sm text-emerald-100">Ruled, Plain, Grid</p>
         </div>
       </div>
-      
+
       {/* Breadcrumb */}
       <div className="flex items-center justify-center gap-2 text-emerald-100">
         <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -99,27 +99,27 @@ const WhyChooseSection = () => {
       color: "from-amber-500 to-orange-600"
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/30 to-white overflow-hidden">
       <div className="absolute top-20 left-10 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-green-200/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-800 rounded-full mb-6 border border-emerald-200/50 shadow-lg backdrop-blur-sm">
             <Sparkles size={18} className="animate-pulse text-emerald-600" />
             <span className="text-sm font-semibold">Why Choose Claspuro</span>
           </div>
-          
+
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
             The <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">Claspuro</span> Difference
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            More than just notebooks—a commitment to quality, sustainability, and positive environmental impact
+            More than just notebooks and papers—a commitment to quality, sustainability, and positive environmental impact
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => {
             const Icon = feature.icon
@@ -173,7 +173,7 @@ const BenefitsSection = () => {
       ]
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -182,10 +182,10 @@ const BenefitsSection = () => {
             Perfect For <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">Everyone</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Whether you're a student, professional, or creative—our notebooks adapt to your needs
+            Whether you're a student, professional, or creative—our notebooks and papers adapt to your needs
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
             <div
@@ -221,11 +221,11 @@ const SustainabilitySection = () => (
         backgroundSize: '40px 40px'
       }}></div>
     </div>
-    
+
     {/* Floating decorative elements */}
     <div className="absolute top-10 right-10 w-40 h-40 bg-white/10 rounded-full blur-2xl animate-pulse"></div>
     <div className="absolute bottom-10 left-10 w-48 h-48 bg-white/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-    
+
     <div className="max-w-7xl mx-auto relative z-10">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         {/* Left: Content */}
@@ -235,13 +235,13 @@ const SustainabilitySection = () => (
           </h2>
           <div className="space-y-4 text-emerald-50 text-lg leading-relaxed">
             <p>
-              Each Claspuro notebook represents our commitment to environmental restoration. By choosing banana peel paper, you're actively participating in reducing deforestation and supporting a circular economy.
+              Each Claspuro notebook and paper represents our commitment to environmental restoration. By choosing banana peel paper, you're actively participating in reducing deforestation and supporting a circular economy.
             </p>
             <p className="font-semibold text-white">
               Each tone of our paper saves approximately 17 trees and prevents agricultural waste from pollung our environment.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-2 gap-6 mt-10">
             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
               <p className="text-4xl font-black text-white mb-2">Zero</p>
@@ -253,7 +253,7 @@ const SustainabilitySection = () => (
             </div>
           </div>
         </div>
-        
+
         {/* Right: Image */}
         <div className="relative">
           <div className="absolute -inset-4 bg-white/20 rounded-3xl blur-2xl"></div>
@@ -274,13 +274,13 @@ const SustainabilitySection = () => (
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "These notebooks are incredible! The quality is outstanding, and knowing they're eco-friendly makes me feel great about every purchase.",
+      quote: "These notebooks and papers are incredible! The quality is outstanding, and knowing they're eco-friendly makes me feel great about every purchase.",
       author: "Sarah M.",
       role: "University Student",
       rating: 5
     },
     {
-      quote: "We switched our entire office to Claspuro notebooks. Our team loves them, and it aligns perfectly with our sustainability goals.",
+      quote: "We switched our entire office to Claspuro notebooks and papers. Our team loves them, and it aligns perfectly with our sustainability goals.",
       author: "James K.",
       role: "Corporate Manager",
       rating: 5
@@ -292,7 +292,7 @@ const TestimonialsSection = () => {
       rating: 5
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/20 to-white">
       <div className="max-w-7xl mx-auto">
@@ -304,7 +304,7 @@ const TestimonialsSection = () => {
             Join thousands of satisfied customers making a positive impact
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
@@ -312,17 +312,17 @@ const TestimonialsSection = () => {
               className="bg-white rounded-2xl p-8 border-2 border-gray-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-xl relative"
             >
               <Quote size={32} className="text-emerald-200 absolute top-6 right-6" />
-              
+
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} size={18} className="text-amber-400 fill-amber-400" />
                 ))}
               </div>
-              
+
               <p className="text-gray-700 leading-relaxed mb-6 italic">
                 "{testimonial.quote}"
               </p>
-              
+
               <div className="border-t pt-4">
                 <p className="font-black text-gray-900">{testimonial.author}</p>
                 <p className="text-sm text-gray-600">{testimonial.role}</p>
@@ -343,7 +343,7 @@ const OrderingInfoSection = () => {
     { icon: Shield, title: "Quality Guarantee", description: "100% satisfaction or money back" },
     { icon: Users, title: "Custom Branding", description: "Logo printing for organizations" }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -353,10 +353,10 @@ const OrderingInfoSection = () => {
               Easy Ordering Process
             </h2>
             <p className="text-lg text-gray-600">
-              Getting your eco-friendly notebooks is simple
+              Getting your eco-friendly notebooks and papers is simple
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-4 gap-6 mb-12">
             {features.map((feature, index) => {
               const Icon = feature.icon
@@ -371,7 +371,7 @@ const OrderingInfoSection = () => {
               )
             })}
           </div>
-          
+
           <div className="text-center">
             <Link
               href="/contact"

@@ -7,7 +7,7 @@ import { Users, GraduationCap, Building2, HeartHandshake, Briefcase, Palette, Sp
 export const metadata: Metadata = {
   title: "Who We Serve | Claspuro Eco-Friendly Notebooks",
   description:
-    "Discover who Claspuro serves: students, schools, NGOs, offices, retailers, and creatives choosing eco-friendly banana peel notebooks.",
+    "Discover who Claspuro serves: students, schools, NGOs, offices, retailers, and creatives choosing eco-friendly banana peel notebooks and papers.",
 }
 
 // Enhanced Page Hero Component
@@ -22,26 +22,26 @@ const EnhancedPageHero = () => (
       />
       <div className="absolute inset-0 bg-gradient-to-b from-emerald-900/85 via-green-900/80 to-emerald-900/85"></div>
     </div>
-    
+
     {/* Decorative elements */}
     <div className="absolute top-20 right-20 w-72 h-72 bg-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
     <div className="absolute bottom-20 left-20 w-80 h-80 bg-green-400/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-    
+
     {/* Hero Content */}
     <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/20 backdrop-blur-md text-white text-sm font-semibold mb-6 border border-white/30 hover:bg-white/30 transition-all duration-300">
         <Users size={20} />
         <span>Communities & Partners</span>
       </div>
-      
+
       <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white mb-6 leading-tight">
         Who We Serve
       </h1>
-      
+
       <p className="text-xl text-emerald-50 max-w-3xl mx-auto leading-relaxed mb-8">
-        Our eco-friendly banana peel notebooks empower students, schools, NGOs, offices, retailers, and creatives who care about the planet.
+        Our eco-friendly banana peel notebooks and papers empower students, schools, NGOs, offices, retailers, and creatives who care about the planet.
       </p>
-      
+
       {/* Breadcrumb */}
       <div className="flex items-center justify-center gap-2 text-emerald-100">
         <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -58,7 +58,7 @@ const AudienceSection = () => {
     {
       icon: GraduationCap,
       title: "Students",
-      description: "Clean, sustainable A4 notebooks for everyday school use, note-taking, and exams.",
+      description: "Clean, sustainable A4 notebooks and papers for everyday school use, note-taking, and exams.",
       color: "from-emerald-500 to-green-600",
       stats: "1000+ students"
     },
@@ -72,7 +72,7 @@ const AudienceSection = () => {
     {
       icon: HeartHandshake,
       title: "NGOs & Nonprofits",
-      description: "Environmentally responsible campaign materials and program notebooks.",
+      description: "Environmentally responsible campaign materials and program notebooks and papers.",
       color: "from-purple-500 to-pink-600",
       stats: "30+ organizations"
     },
@@ -93,7 +93,7 @@ const AudienceSection = () => {
     {
       icon: Palette,
       title: "Artists & Writers",
-      description: "Beautiful notebooks for sketching, journaling, gifting, and everyday creativity.",
+      description: "Beautiful notebooks and papers for sketching, journaling, gifting, and everyday creativity.",
       color: "from-rose-500 to-red-600",
       stats: "500+ creatives"
     },
@@ -103,16 +103,16 @@ const AudienceSection = () => {
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/30 to-white overflow-hidden">
       <div className="absolute top-20 left-10 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-green-200/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-800 rounded-full mb-6 border border-emerald-200/50 shadow-lg backdrop-blur-sm">
             <Sparkles size={18} className="animate-pulse text-emerald-600" />
             <span className="text-sm font-semibold">Who We Serve</span>
           </div>
-          
+
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
-            Our Notebooks Are{" "}
+            Our Notebooks and Papers Are{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">
               Ideal For
             </span>
@@ -156,7 +156,7 @@ const UseCasesSection = () => {
   const useCases = [
     {
       category: "Educational Excellence",
-      description: "Schools use our notebooks for student assignments, teacher planning, and administrative work while teaching environmental responsibility.",
+      description: "Schools use our notebooks and papers for student assignments, teacher planning, and administrative work while teaching environmental responsibility.",
       icon: GraduationCap,
       color: "from-blue-500 to-indigo-600"
     },
@@ -185,7 +185,7 @@ const UseCasesSection = () => {
             </span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            See how different communities are making an impact with Claspuro notebooks
+            See how different communities are making an impact with Claspuro notebooks and papers
           </p>
         </div>
 
@@ -259,21 +259,21 @@ const TestimonialsSection = () => {
               className="bg-white rounded-3xl p-8 border-2 border-gray-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-xl relative"
             >
               <Quote size={40} className="text-emerald-200 absolute top-6 right-6" />
-              
+
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} size={18} className="text-amber-400 fill-amber-400" />
                 ))}
               </div>
-              
+
               <div className="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-xs font-bold mb-4">
                 {testimonial.category}
               </div>
-              
+
               <p className="text-gray-700 leading-relaxed mb-6 italic">
                 "{testimonial.quote}"
               </p>
-              
+
               <div className="border-t pt-4">
                 <p className="font-black text-gray-900">{testimonial.author}</p>
                 <p className="text-sm text-gray-600">{testimonial.role}</p>
@@ -292,7 +292,7 @@ const WhyChooseSection = () => {
     {
       icon: CheckCircle2,
       title: "Tangible Sustainability",
-      description: "Reduce tree cutting and support a circular economy by choosing notebooks made from upcycled banana waste."
+      description: "Reduce tree cutting and support a circular economy by choosing notebooks and papers made from upcycled banana waste."
     },
     {
       icon: Package,
@@ -302,12 +302,12 @@ const WhyChooseSection = () => {
     {
       icon: Award,
       title: "Inspires Users",
-      description: "Students, teams, and creatives love writing in notebooks that tell a meaningful sustainability story."
+      description: "Students, teams, and creatives love writing in notebooks and papers that tell a meaningful sustainability story."
     },
     {
       icon: TrendingUp,
       title: "Custom Branding Available",
-      description: "Add your logo and messaging to create branded notebooks that reflect your organization's values."
+      description: "Add your logo and messaging to create branded notebooks and papers that reflect your organization's values."
     }
   ]
 
@@ -320,18 +320,18 @@ const WhyChooseSection = () => {
           backgroundSize: '40px 40px'
         }}></div>
       </div>
-      
+
       {/* Floating decorative elements */}
       <div className="absolute top-10 right-10 w-40 h-40 bg-white/10 rounded-full blur-2xl animate-pulse"></div>
       <div className="absolute bottom-10 left-10 w-48 h-48 bg-white/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center text-white mb-16">
           <h2 className="text-4xl sm:text-5xl font-black mb-6">
             Why Partners Choose Claspuro
           </h2>
           <p className="text-xl text-emerald-50 max-w-3xl mx-auto">
-            Whether you're running a school, leading a nonprofit, stocking a retail shop, or growing a startup, our banana peel notebooks help you align everyday stationery with real environmental impact.
+            Whether you're running a school, leading a nonprofit, stocking a retail shop, or growing a startup, our banana peel notebooks and papers help you align everyday stationery with real environmental impact.
           </p>
         </div>
 

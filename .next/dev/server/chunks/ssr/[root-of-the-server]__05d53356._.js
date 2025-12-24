@@ -805,7 +805,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 const metadata = {
     title: "About Claspuro | Sustainable Banana Peel Notebook Innovators",
-    description: "Discover Claspuro's mission to reduce tree cutting by turning banana waste into premium eco-friendly notebooks and driving a circular, community-focused economy."
+    description: "Discover Claspuro's mission to reduce tree cutting by turning banana waste into premium eco-friendly notebooks and papers and driving a circular, community-focused economy."
 };
 // Enhanced Page Hero
 const EnhancedPageHero = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -816,7 +816,7 @@ const EnhancedPageHero = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: "/banner_peel_about.jpg",
-                        alt: "About Claspuro sustainable banana peel notebooks",
+                        alt: "About Claspuro sustainable banana peel notebooks and papers",
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/app/about/page.tsx",
@@ -889,7 +889,7 @@ const EnhancedPageHero = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-xl text-emerald-50 max-w-3xl mx-auto leading-relaxed mb-8",
-                        children: "Pioneering the transformation of banana waste into premium eco-friendly notebooks, one sustainable page at a time."
+                        children: "Pioneering the transformation of banana waste into premium eco-friendly notebooks and papers, one sustainable page at a time."
                     }, void 0, false, {
                         fileName: "[project]/app/about/page.tsx",
                         lineNumber: 41,
@@ -998,14 +998,14 @@ const OurStorySection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b
                                 className: "space-y-4 text-gray-700 text-lg leading-relaxed",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "Claspuro was born from a simple observation: Rwanda produces tons of banana waste annually, while traditional paper manufacturing continues to devastate our forests. We asked ourselves—what if we could solve both problems at once?"
+                                        children: "Claspuro was born from a simple observation: World  produces over 40million tons of banana waste annually, while traditional paper manufacturing continues to devastate our forests. We asked ourselves—what if we could solve both problems at once?"
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.tsx",
                                         lineNumber: 72,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "Founded in 2023, we began with a vision to revolutionize the stationery industry by creating premium notebooks from 100% upcycled banana peels. What started as an experiment in sustainability has grown into a movement."
+                                        children: "Founded in 2025, we began with a vision to revolutionize the stationery industry by creating premium notebooks and papers from 100% upcycled banana peels. What started as an experiment in sustainability has grown into a movement."
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.tsx",
                                         lineNumber: 75,
@@ -1013,7 +1013,7 @@ const OurStorySection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "font-semibold text-emerald-700",
-                                        children: "Today, every Claspuro notebook represents not just a commitment to quality, but a promise to our planet and future generations."
+                                        children: "Today, every Claspuro notebook and paper represents not just a commitment to quality, but a promise to our planet and future generations."
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.tsx",
                                         lineNumber: 78,
@@ -1038,7 +1038,7 @@ const OurStorySection = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-800 italic text-lg pl-8 pt-4",
-                                        children: "\"We don't just make notebooks. We're creating a sustainable future where waste becomes opportunity, and every page written is a step toward environmental restoration.\""
+                                        children: "\"We don't just make notebooks and papers. We're creating a sustainable future where waste becomes opportunity, and every page written is a step toward environmental restoration.\""
                                     }, void 0, false, {
                                         fileName: "[project]/app/about/page.tsx",
                                         lineNumber: 86,

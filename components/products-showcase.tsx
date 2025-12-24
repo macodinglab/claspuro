@@ -6,7 +6,7 @@ import { BookOpen, Grid3x3, Ruler, Check, Sparkles, Package, ArrowRight } from "
 const products = [
   {
     id: 1,
-    name: "Ruled Notebooks",
+    name: "Ruled Notebooks and Papers",
     description: "Perfect for note-taking with guided lines for organization and clarity.",
     icon: BookOpen,
     color: "from-emerald-500 to-green-600",
@@ -17,7 +17,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Plain Notebooks",
+    name: "Plain Notebooks and Papers",
     description: "Blank canvas for creativity—ideal for sketching, journaling, and planning.",
     icon: Grid3x3,
     color: "from-teal-500 to-emerald-600",
@@ -28,7 +28,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Grid Notebooks",
+    name: "Grid Notebooks and Papers",
     description: "Structured grid layout perfect for technical work, sketches, and layouts.",
     icon: Ruler,
     color: "from-green-500 to-teal-600",
@@ -68,7 +68,7 @@ export default function ProductsShowcase() {
       {/* Decorative background elements */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-emerald-200/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-40 left-10 w-96 h-96 bg-green-200/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Section Header */}
         <div className="text-center mb-20">
@@ -76,16 +76,16 @@ export default function ProductsShowcase() {
             <Sparkles size={18} className="animate-pulse text-emerald-600" />
             <span className="text-sm font-semibold">Our Collections</span>
           </div>
-          
+
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6 leading-tight">
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 animate-gradient bg-[length:200%_auto] mb-2">
               Premium Eco-Friendly
             </span>
-            <span className="block text-emerald-900">Notebooks</span>
+            <span className="block text-emerald-900">Notebooks and Papers</span>
           </h2>
-          
+
           <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
-            Choose from our sustainable A4 notebooks. Each crafted with premium quality, attention to detail, and
+            Choose from our sustainable A4 notebooks and papers. Each crafted with premium quality, attention to detail, and
             environmental responsibility.
           </p>
         </div>
@@ -103,15 +103,13 @@ export default function ProductsShowcase() {
                 data-index={index}
                 onMouseEnter={() => setActiveCard(index)}
                 onMouseLeave={() => setActiveCard(null)}
-                className={`group relative transition-all duration-700 transform ${
-                  isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
-                }`}
+                className={`group relative transition-all duration-700 transform ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+                  }`}
                 style={{ transitionDelay: `${index * 150}ms` }}
               >
-                <div className={`relative bg-white rounded-3xl overflow-hidden h-full border-2 transition-all duration-500 ${
-                  isActive ? 'border-emerald-500 shadow-2xl -translate-y-6 scale-105' : 'border-emerald-200/50 shadow-lg hover:shadow-xl hover:-translate-y-2'
-                }`}>
-                  
+                <div className={`relative bg-white rounded-3xl overflow-hidden h-full border-2 transition-all duration-500 ${isActive ? 'border-emerald-500 shadow-2xl -translate-y-6 scale-105' : 'border-emerald-200/50 shadow-lg hover:shadow-xl hover:-translate-y-2'
+                  }`}>
+
                   {/* Badge */}
                   <div className="absolute top-4 right-4 z-20 px-4 py-1.5 bg-gradient-to-r from-emerald-600 to-green-600 text-white text-xs font-bold rounded-full shadow-lg transform rotate-3 group-hover:rotate-0 transition-transform duration-300">
                     {product.badge}
@@ -128,7 +126,7 @@ export default function ProductsShowcase() {
                       className={`w-full h-full object-cover transition-all duration-700 ${isActive ? 'scale-110 rotate-1' : 'scale-100'}`}
                     />
                     <div className={`absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent transition-opacity duration-500 ${isActive ? 'opacity-100' : 'opacity-50'}`}></div>
-                    
+
                     {/* Floating icon */}
                     <div className={`absolute top-4 left-4 w-14 h-14 rounded-xl bg-white/95 backdrop-blur-sm flex items-center justify-center shadow-lg transition-all duration-500 ${isActive ? 'scale-110 rotate-12' : 'scale-100'}`}>
                       <Icon size={28} className="text-emerald-600" />
@@ -151,7 +149,7 @@ export default function ProductsShowcase() {
                     {/* Price Badge */}
                     <div className={`inline-flex items-center gap-2 px-4 py-1.5 bg-emerald-50 text-emerald-700 font-bold rounded-full mb-4 text-sm border border-emerald-200 transition-all duration-300 ${isActive ? 'scale-110' : 'scale-100'}`}>
                       <span className="text-lg">{product.price}</span>
-                      <span className="text-xs opacity-75">per notebook</span>
+                      <span className="text-xs opacity-75">per notebook and paper</span>
                     </div>
 
                     {/* Description */}
@@ -199,25 +197,25 @@ export default function ProductsShowcase() {
               backgroundSize: '40px 40px'
             }}></div>
           </div>
-          
+
           {/* Floating decorative elements */}
           <div className="absolute top-8 right-8 w-20 h-20 bg-white/10 rounded-full blur-xl group-hover:scale-150 transition-transform duration-700"></div>
           <div className="absolute bottom-8 left-8 w-32 h-32 bg-white/10 rounded-full blur-xl group-hover:scale-150 transition-transform duration-700"></div>
-          
+
           <div className="relative z-10">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
               <Package size={32} className="text-white" />
             </div>
-            
+
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-4 group-hover:scale-105 transition-transform duration-300">
               Bulk Orders Available
             </h3>
-            
+
             <p className="text-base sm:text-lg text-emerald-50 mb-8 max-w-2xl mx-auto leading-relaxed">
               Custom branding and packaging for schools, offices, NGOs, and organizations. Perfect for corporate gifts and
               environmental initiatives.
             </p>
-            
+
             <button className="inline-flex items-center gap-3 px-10 py-4 bg-white text-emerald-900 font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-all duration-300 group/btn text-lg">
               <span>Request Bulk Quote</span>
               <ArrowRight size={20} className="group-hover/btn:translate-x-2 transition-transform duration-300" />

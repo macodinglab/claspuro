@@ -7,7 +7,7 @@ import { Sprout, Users, Target, Lightbulb, Award, TrendingUp, Heart, Globe, Spar
 export const metadata: Metadata = {
   title: "About Claspuro | Sustainable Banana Peel Notebook Innovators",
   description:
-    "Discover Claspuro's mission to reduce tree cutting by turning banana waste into premium eco-friendly notebooks and driving a circular, community-focused economy.",
+    "Discover Claspuro's mission to reduce tree cutting by turning banana waste into premium eco-friendly notebooks and papers and driving a circular, community-focused economy.",
 }
 
 // Enhanced Page Hero
@@ -17,31 +17,31 @@ const EnhancedPageHero = () => (
     <div className="absolute inset-0 z-0">
       <img
         src="/banner_peel_about.jpg"
-        alt="About Claspuro sustainable banana peel notebooks"
+        alt="About Claspuro sustainable banana peel notebooks and papers"
         className="w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-emerald-900/85 via-green-900/80 to-emerald-900/85"></div>
     </div>
-    
+
     {/* Decorative elements */}
     <div className="absolute top-20 right-20 w-72 h-72 bg-emerald-400/20 rounded-full blur-3xl animate-pulse"></div>
     <div className="absolute bottom-20 left-20 w-80 h-80 bg-green-400/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-    
+
     {/* Hero Content */}
     <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <div className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/20 backdrop-blur-md text-white text-sm font-semibold mb-6 border border-white/30 hover:bg-white/30 transition-all duration-300">
         <Sprout size={20} />
         <span>Mission, Vision & Impact</span>
       </div>
-      
+
       <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white mb-6 leading-tight">
         About Claspuro
       </h1>
-      
+
       <p className="text-xl text-emerald-50 max-w-3xl mx-auto leading-relaxed mb-8">
-        Pioneering the transformation of banana waste into premium eco-friendly notebooks, one sustainable page at a time.
+        Pioneering the transformation of banana waste into premium eco-friendly notebooks and papers, one sustainable page at a time.
       </p>
-      
+
       {/* Breadcrumb */}
       <div className="flex items-center justify-center gap-2 text-emerald-100">
         <Link href="/" className="hover:text-white transition-colors">Home</Link>
@@ -63,33 +63,33 @@ const OurStorySection = () => (
             <Sparkles size={18} className="animate-pulse text-emerald-600" />
             <span className="text-sm font-semibold">Our Story</span>
           </div>
-          
+
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 leading-tight">
             From Waste to <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">Wonder</span>
           </h2>
-          
+
           <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
             <p>
-            Claspuro was born from a simple observation: World  produces over 40million tons of banana waste annually, while traditional paper manufacturing continues to devastate our forests. We asked ourselves—what if we could solve both problems at once?
+              Claspuro was born from a simple observation: World  produces over 40million tons of banana waste annually, while traditional paper manufacturing continues to devastate our forests. We asked ourselves—what if we could solve both problems at once?
             </p>
             <p>
-            Founded in 2025, we began with a vision to revolutionize the stationery industry by creating premium notebooks from 100% upcycled banana peels. What started as an experiment in sustainability has grown into a movement.
+              Founded in 2025, we began with a vision to revolutionize the stationery industry by creating premium notebooks and papers from 100% upcycled banana peels. What started as an experiment in sustainability has grown into a movement.
             </p>
             <p className="font-semibold text-emerald-700">
-              Today, every Claspuro notebook represents not just a commitment to quality, but a promise to our planet and future generations.
+              Today, every Claspuro notebook and paper represents not just a commitment to quality, but a promise to our planet and future generations.
             </p>
           </div>
-          
+
           {/* Quote */}
           <div className="bg-gradient-to-br from-emerald-50 to-green-50 p-6 rounded-2xl border-2 border-emerald-200/50 relative mt-8">
             <Quote size={32} className="text-emerald-300 absolute top-4 left-4" />
             <p className="text-gray-800 italic text-lg pl-8 pt-4">
-              "We don't just make notebooks. We're creating a sustainable future where waste becomes opportunity, and every page written is a step toward environmental restoration."
+              "We don't just make notebooks and papers. We're creating a sustainable future where waste becomes opportunity, and every page written is a step toward environmental restoration."
             </p>
             <p className="text-emerald-700 font-bold mt-4 pl-8">— Claspuro Founders</p>
           </div>
         </div>
-        
+
         {/* Right: Images Grid */}
         <div className="grid grid-cols-2 gap-4">
           <div className="col-span-2 relative rounded-2xl overflow-hidden shadow-2xl group">
@@ -140,12 +140,12 @@ const MissionVisionSection = () => {
       bgColor: "from-blue-50 to-indigo-50"
     }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/30 to-white overflow-hidden">
       <div className="absolute top-20 left-10 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-green-200/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
@@ -155,7 +155,7 @@ const MissionVisionSection = () => {
             Driven by purpose, guided by sustainability
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-8 mb-20">
           {cards.map((card, index) => {
             const Icon = card.icon
@@ -173,13 +173,13 @@ const MissionVisionSection = () => {
             )
           })}
         </div>
-        
+
         {/* Core Values */}
         <div>
           <h3 className="text-3xl sm:text-4xl font-black text-center text-gray-900 mb-12">
             Our Core <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">Values</span>
           </h3>
-          
+
           <div className="grid md:grid-cols-4 gap-6">
             {[
               { icon: Sprout, title: "Sustainability", description: "Environmental stewardship in every action", color: "from-emerald-500 to-green-600" },
@@ -294,7 +294,7 @@ const ImpactSection = () => {
     { icon: Globe, value: "100%", label: "Biodegradable Products", color: "from-purple-500 to-pink-600" },
     { icon: Award, value: "1000+", label: "Happy Customers", color: "from-amber-500 to-orange-600" }
   ]
-  
+
   return (
     <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-600 via-green-600 to-teal-600 overflow-hidden">
       {/* Background pattern */}
@@ -304,11 +304,11 @@ const ImpactSection = () => {
           backgroundSize: '40px 40px'
         }}></div>
       </div>
-      
+
       {/* Floating decorative elements */}
       <div className="absolute top-10 right-10 w-40 h-40 bg-white/10 rounded-full blur-2xl animate-pulse"></div>
       <div className="absolute bottom-10 left-10 w-48 h-48 bg-white/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-      
+
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black text-white mb-4">
@@ -318,7 +318,7 @@ const ImpactSection = () => {
             Making a measurable difference for our planet and communities
           </p>
         </div>
-        
+
         <div className="grid md:grid-cols-4 gap-6">
           {stats.map((stat, index) => {
             const Icon = stat.icon
@@ -351,7 +351,7 @@ const CTASection = () => (
       <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
         Be part of the solution. Choose Claspuro for your stationery needs and help us create a greener future.
       </p>
-      
+
       <div className="flex flex-col sm:flex-row gap-6 justify-center">
         <Link
           href="/products"
