@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { BookOpen, Grid3x3, Ruler, Check, Sparkles, Package, ArrowRight } from "lucide-react"
+import { BookOpen, Grid3x3, Ruler, Check, Sparkles, Package, ArrowRight, Aperture } from "lucide-react"
 
 const products = [
   {
@@ -12,6 +12,7 @@ const products = [
     color: "from-emerald-500 to-green-600",
     features: ["80 pages", "A4 size", "Premium finish"],
     price: "$3",
+    unit: "per notebook and paper",
     image: "/ruled-notebook-lined-pages.jpg",
     badge: "Popular"
   },
@@ -23,6 +24,7 @@ const products = [
     color: "from-teal-500 to-emerald-600",
     features: ["120 pages", "A4 size", "Ultra smooth"],
     price: "$3",
+    unit: "per notebook and paper",
     image: "/plain-blank-notebook-pages.jpg",
     badge: "Best Seller"
   },
@@ -34,7 +36,32 @@ const products = [
     color: "from-green-500 to-teal-600",
     features: ["100 pages", "A4 size", "Professional"],
     price: "$3",
+    unit: "per notebook and paper",
     image: "/grid-notebook-squared-paper.jpg",
+    badge: "New"
+  },
+  {
+    id: 4,
+    name: "Virgin Paper roll",
+    description: "Ideal for making any type of notebook.",
+    icon: Aperture,
+    color: "from-green-500 to-teal-600",
+    features: ["1 Tonne  Paper roll"],
+    price: "$1200",
+    unit: "per roll",
+    image: "paperroll.webp",
+    badge: "New"
+  },
+  {
+    id: 5,
+    name: "Virgin Paper roll",
+    description: "Ideal for making any type of notebook.",
+    icon: Aperture,
+    color: "from-green-500 to-teal-600",
+    features: ["1 Tonne  Paper roll"],
+    price: "$1200",
+    unit: "per roll",
+    image: "paperrolls.webp",
     badge: "New"
   },
 ]
@@ -149,7 +176,7 @@ export default function ProductsShowcase() {
                     {/* Price Badge */}
                     <div className={`inline-flex items-center gap-2 px-4 py-1.5 bg-emerald-50 text-emerald-700 font-bold rounded-full mb-4 text-sm border border-emerald-200 transition-all duration-300 ${isActive ? 'scale-110' : 'scale-100'}`}>
                       <span className="text-lg">{product.price}</span>
-                      <span className="text-xs opacity-75">per notebook and paper</span>
+                      <span className="text-xs opacity-75">{product.unit}</span>
                     </div>
 
                     {/* Description */}
