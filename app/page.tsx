@@ -2,77 +2,83 @@ import Navigation from "@/components/navigation"
 import HeroSection from "@/components/hero-section"
 import Footer from "@/components/footer"
 import Link from "next/link"
-import { Leaf, Recycle, Users, Target, BookOpen, Sparkles, ArrowRight, CheckCircle2, TrendingUp, Award, Heart, Globe, Package, Shield, Star, Quote } from "lucide-react"
+import { Factory, FlaskConical, Droplets, Briefcase, Sprout, ArrowRight } from "lucide-react"
 
-// Features Section
-const FeaturesSection = () => {
-  const features = [
-    {
-      icon: Leaf,
-      title: "100% Eco-Friendly",
-      description: "Every notebook and paper is crafted from upcycled banana peels, saving trees and reducing waste.",
-      color: "from-emerald-500 to-green-600",
-      stat: "Zero trees cut"
-    },
-    {
-      icon: Recycle,
-      title: "Circular Economy",
-      description: "Transforming agricultural waste into premium products that give back to nature.",
-      color: "from-teal-500 to-cyan-600",
-      stat: "100% biodegradable"
-    },
-    {
-      icon: Award,
-      title: "Premium Quality",
-      description: "Smooth writing surface with durable binding for professionals, students, and creatives.",
-      color: "from-amber-500 to-orange-600",
-      stat: "A4 standard size"
-    }
+// About Puroch Split Layout
+const AboutPurochSection = () => {
+  return (
+    <section id="about" className="w-full bg-[#f8f7f5] flex flex-col md:flex-row">
+      <div className="w-full md:w-1/2 p-12 md:p-24 flex flex-col justify-center">
+        <p className="text-emerald-700 text-xs font-bold tracking-widest uppercase mb-4">About Puroch</p>
+        <h2 className="text-4xl md:text-5xl font-serif text-[#1a1a1a] mb-8 leading-tight">
+          A circular economy <br/> company in Tamil Nadu.
+        </h2>
+        <div className="space-y-6 text-gray-700 text-lg">
+          <p>
+            Puroch is developing a scalable model to convert banana peel waste into premium 80 gsm paper rolls and A4 notebooks.
+          </p>
+          <p>
+            Using a low impact enzymatic pulping process with full Zero Liquid Discharge and biomass energy, our prototype creates truly sustainable paper while proposing a solution to two major problems: massive banana peel waste and deforestation caused by virgin wood pulp.
+          </p>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 h-[50vh] md:h-auto">
+        <img src="/banner_banana_peel_home.jpg" alt="Banana Farm" className="w-full h-full object-cover opacity-90" />
+      </div>
+    </section>
+  )
+}
+
+// 3-Image Row
+const ImageRowSection = () => {
+  return (
+    <section className="w-full flex flex-col md:flex-row h-auto md:h-[40vh]">
+      <div className="w-full md:w-1/3 h-64 md:h-full relative group overflow-hidden">
+        <img src="/ruled-notebook-lined-pages.jpg" alt="Supply Chain" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div className="absolute inset-0 bg-black/20"></div>
+        <p className="absolute bottom-6 left-6 text-white text-sm font-bold tracking-widest uppercase">Proposed Sourcing</p>
+      </div>
+      <div className="w-full md:w-1/3 h-64 md:h-full relative group overflow-hidden">
+        <img src="/plain-blank-notebook-pages.jpg" alt="Production" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div className="absolute inset-0 bg-black/20"></div>
+        <p className="absolute bottom-6 left-6 text-white text-sm font-bold tracking-widest uppercase">Prototype Process</p>
+      </div>
+      <div className="w-full md:w-1/3 h-64 md:h-full relative group overflow-hidden">
+        <img src="/grid-notebook-squared-paper.jpg" alt="Final Product" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div className="absolute inset-0 bg-black/20"></div>
+        <p className="absolute bottom-6 left-6 text-white text-sm font-bold tracking-widest uppercase">Target Product</p>
+      </div>
+    </section>
+  )
+}
+
+// Why Puroch Grid
+const WhyPurochSection = () => {
+  const reasons = [
+    { icon: Factory, title: "Industrial scale", desc: "Planned production from 100% banana peels" },
+    { icon: FlaskConical, title: "Enzymatic process", desc: "Proprietary mild enzymatic process" },
+    { icon: Droplets, title: "Zero Liquid Discharge", desc: "Complete water recycling system prototype" },
+    { icon: Sprout, title: "Direct supply chain", desc: "Proposed sourcing from farmers in Tamil Nadu" },
+    { icon: Briefcase, title: "Carbon & Jobs", desc: "Targeting carbon credits + rural job creation" }
   ]
 
   return (
-    <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
-      <div className="absolute top-20 left-10 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-80 h-80 bg-green-200/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
-
-      <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-800 rounded-full mb-6 border border-emerald-200/50 shadow-lg backdrop-blur-sm">
-            <Sparkles size={18} className="animate-pulse text-emerald-600" />
-            <span className="text-sm font-semibold">Why Choose Claspuro</span>
-          </div>
-
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 mb-4">
-            Sustainable Notebooks and Papers,{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">
-              Extraordinary Impact
-            </span>
+    <section id="approach" className="w-full py-24 px-4 sm:px-6 lg:px-8 bg-[#f2efe9]">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
+        <div className="w-full md:w-1/3">
+          <p className="text-emerald-700 text-xs font-bold tracking-widest uppercase mb-4">Features</p>
+          <h2 className="text-4xl font-serif text-[#1a1a1a] mb-6 leading-tight">
+            Why our model <br/> stands apart.
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Every Claspuro notebook and paper represents a commitment to environmental restoration and premium quality
-          </p>
         </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {features.map((feature, index) => {
-            const Icon = feature.icon
+        <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
+          {reasons.map((r, i) => {
+            const Icon = r.icon
             return (
-              <div
-                key={index}
-                className="group bg-white rounded-3xl p-8 border-2 border-gray-200 hover:border-emerald-400 transition-all duration-500 hover:shadow-2xl hover:-translate-y-3"
-              >
-                <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${feature.color} flex items-center justify-center mb-6 shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-500`}>
-                  <Icon size={36} className="text-white" />
-                </div>
-                <h3 className="text-2xl font-black text-gray-900 mb-3 group-hover:text-emerald-700 transition-colors duration-300">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  {feature.description}
-                </p>
-                <div className="inline-block px-4 py-2 bg-gradient-to-r from-emerald-50 to-green-50 rounded-full border border-emerald-200/50">
-                  <span className="text-sm font-bold text-emerald-700">{feature.stat}</span>
-                </div>
+              <div key={i} className="bg-[#faf9f6] p-8 border border-black/5 hover:border-emerald-200 transition-colors">
+                <Icon className="text-emerald-700 mb-6" size={24} />
+                <h3 className="text-xl font-bold text-[#1a1a1a] mb-2">{r.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{r.desc}</p>
               </div>
             )
           })}
@@ -82,64 +88,30 @@ const FeaturesSection = () => {
   )
 }
 
-// How It Works Section
-const HowItWorksSection = () => {
-  const steps = [
-    {
-      number: "01",
-      title: "Collect Banana Waste",
-      description: "We source banana peels from local farms and markets, preventing organic waste from polluting the environment.",
-      color: "from-emerald-500 to-green-600"
-    },
-    {
-      number: "02",
-      title: "Transform Into Fiber",
-      description: "Through our eco-friendly process, banana peels are converted into premium paper fiber without harmful chemicals.",
-      color: "from-teal-500 to-cyan-600"
-    },
-    {
-      number: "03",
-      title: "Craft Premium Notebooks and Papers",
-      description: "Expert craftsmanship transforms the fiber into beautiful, durable A4 notebooks and papers ready for your ideas.",
-      color: "from-blue-500 to-indigo-600"
-    },
-    {
-      number: "04",
-      title: "Deliver Sustainability",
-      description: "Your notebook and paper arrives, representing zero trees cut and a positive step toward environmental restoration.",
-      color: "from-purple-500 to-pink-600"
-    }
+// Our Impact Section (Dark Map)
+const OurImpactSection = () => {
+  const impacts = [
+    { value: "1,000+", label: "Target annual banana waste processing capacity (tons)" },
+    { value: "CO2", label: "Projected to save trees and reduce methane emissions" },
+    { value: "120+", label: "Targeted rural jobs, focusing on women & youth" },
+    { value: "Premium", label: "Designed to deliver eco-paper at competitive prices" }
   ]
 
   return (
-    <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/30 to-white overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
-            From <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">Waste</span> to Wonder
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Our innovative process transforms banana peels into premium notebooks and papers
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {steps.map((step, index) => (
-            <div
-              key={index}
-              className="relative bg-white rounded-2xl p-8 border-2 border-gray-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-xl group"
-            >
-              <div className={`absolute -top-4 -left-4 w-16 h-16 rounded-xl bg-gradient-to-br ${step.color} flex items-center justify-center shadow-xl`}>
-                <span className="text-2xl font-black text-white">{step.number}</span>
-              </div>
-              <div className="mt-4">
-                <h3 className="text-xl font-black text-gray-900 mb-3 group-hover:text-emerald-700 transition-colors duration-300">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed text-sm">
-                  {step.description}
-                </p>
-              </div>
+    <section id="impact" className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-[#1a1a1a] overflow-hidden text-center">
+      {/* Abstract Map Background Simulation */}
+      <div className="absolute inset-0 opacity-20 bg-[url('https://upload.wikimedia.org/wikipedia/commons/e/ec/World_map_blank_without_borders.svg')] bg-center bg-no-repeat bg-contain filter invert"></div>
+      
+      <div className="relative z-10 max-w-5xl mx-auto">
+        <p className="text-emerald-400 text-xs font-bold tracking-widest uppercase mb-4">Projected Impact</p>
+        <h2 className="text-4xl font-serif text-white mb-16 leading-tight">
+          Global vision, local action.
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          {impacts.map((imp, i) => (
+            <div key={i} className="p-4">
+              <p className="text-3xl font-bold text-emerald-400 mb-3">{imp.value}</p>
+              <p className="text-sm text-gray-400 leading-relaxed uppercase tracking-widest">{imp.label}</p>
             </div>
           ))}
         </div>
@@ -148,202 +120,143 @@ const HowItWorksSection = () => {
   )
 }
 
-// Impact Stats Section
-const ImpactStatsSection = () => {
-  const stats = [
-    { icon: TrendingUp, value: "25%", label: "Trees cutting reduction goal ", subtext: "Annual target" },
-    { icon: Users, value: "1000+", label: "Happy Customers", subtext: "And growing" },
-    { icon: Globe, value: "50+", label: "Communities Supported", subtext: "Across Rwanda" },
-    { icon: Award, value: "100%", label: "Biodegradable", subtext: "Eco-certified" }
+// The Process Banner
+const ProcessSection = () => {
+  const steps = [
+    "1. Peel Collection from local farmers",
+    "2. Washing & Shredding",
+    "3. Enzymatic Pre-Treatment",
+    "4. Mild Alkaline Cooking",
+    "5. Mechanical Refining",
+    "6. Screening & Cleaning",
+    "7. Paper Formation → 80 gsm Eco-Paper"
   ]
-
   return (
-    <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-emerald-600 via-green-600 to-teal-600 overflow-hidden">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-          backgroundSize: '40px 40px'
-        }}></div>
+    <section id="process" className="relative w-full py-32 px-4 sm:px-6 lg:px-8 bg-[#0a0a0a] overflow-hidden flex items-center justify-center">
+      <div className="absolute inset-0 opacity-40">
+        <img src="/banner_banana_peel_home.jpg" alt="Process" className="w-full h-full object-cover filter grayscale blur-sm" />
+        <div className="absolute inset-0 bg-black/60"></div>
       </div>
-
-      {/* Floating decorative elements */}
-      <div className="absolute top-10 right-10 w-40 h-40 bg-white/10 rounded-full blur-2xl animate-pulse"></div>
-      <div className="absolute bottom-10 left-10 w-48 h-48 bg-white/10 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-
-      <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-black text-white mb-4">
-            Making a Measurable Difference
+      
+      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+        <div className="w-full md:w-1/2">
+          <p className="text-emerald-400 text-xs font-bold tracking-widest uppercase mb-4">The Process</p>
+          <h2 className="text-5xl font-serif text-white mb-6 leading-tight">
+            A highly scalable <br/><span className="text-emerald-500 italic font-light">ecosystem</span><br/> for sustainable paper.
           </h2>
-          <p className="text-xl text-emerald-50 max-w-2xl mx-auto">
-            Our commitment to sustainability shows in the numbers
-          </p>
         </div>
-
-        <div className="grid md:grid-cols-4 gap-6">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon
-            return (
-              <div
-                key={index}
-                className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:-translate-y-2 group text-center"
-              >
-                <Icon size={48} className="text-white mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-                <p className="text-5xl font-black text-white mb-2 group-hover:scale-110 transition-transform duration-300">
-                  {stat.value}
-                </p>
-                <p className="text-lg text-white font-bold mb-1">{stat.label}</p>
-                <p className="text-sm text-emerald-100">{stat.subtext}</p>
-              </div>
-            )
-          })}
+        <div className="w-full md:w-1/2 bg-white/5 p-8 backdrop-blur-sm border border-white/10">
+          <ul className="space-y-4 text-gray-300">
+            {steps.map((step, i) => (
+              <li key={i} className="flex items-start gap-4 border-b border-white/10 pb-4 last:border-0 last:pb-0">
+                <span className="text-emerald-500 font-bold mt-1">✓</span>
+                <span className="text-lg">{step}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
   )
 }
 
-// Product Preview Section
-const ProductPreviewSection = () => {
+// Products Cards
+const ProductsSection = () => {
   const products = [
     {
-      name: "Ruled Notebooks and Papers",
-      description: "Perfect for structured note-taking",
-      image: "/ruled-notebook-lined-pages.jpg",
-      price: "$3"
+      name: "Paper Rolls (Prototype)",
+      description: "Targeting premium 80 gsm for eco-friendly printing & packaging.",
+      image: "/ruled-notebook-lined-pages.jpg", 
     },
     {
-      name: "Plain Notebooks and Papers",
-      description: "Ideal for sketching and creativity",
+      name: "A4 Notebooks (Proposed)",
+      description: "Planned high-quality, biodegradable pathway to FSC Recycled standards.",
       image: "/plain-blank-notebook-pages.jpg",
-      price: "$3"
     },
     {
-      name: "Grid Notebooks and Papers",
-      description: "Great for technical work",
+      name: "Custom Solutions (Future)",
+      description: "Envisioned sustainable stationery for eco-conscious brands & institutions.",
       image: "/grid-notebook-squared-paper.jpg",
-      price: "$3"
     }
   ]
 
   return (
-    <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="what-we-do" className="w-full py-24 px-4 sm:px-6 lg:px-8 bg-[#f8f7f5]">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
-            Explore Our{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">
-              Product Range
-            </span>
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-            Premium A4 notebooks and papers in three versatile formats
-          </p>
+        <div className="flex flex-col md:flex-row justify-between items-end mb-16">
+          <div>
+            <p className="text-emerald-700 text-xs font-bold tracking-widest uppercase mb-4">Target Products</p>
+            <h2 className="text-4xl font-serif text-[#1a1a1a]">
+              Explore our proposed <br/> product line.
+            </h2>
+          </div>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {products.map((product, index) => (
-            <div
-              key={index}
-              className="group bg-white rounded-3xl overflow-hidden border-2 border-gray-200 hover:border-emerald-400 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2"
-            >
-              <div className="relative h-64 overflow-hidden bg-gradient-to-br from-emerald-50 to-green-50">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+        <div className="grid md:grid-cols-3 gap-8">
+          {products.map((p, i) => (
+            <div key={i} className="group bg-white flex flex-col h-full border border-black/5 hover:shadow-xl transition-all duration-300">
+              <div className="h-64 overflow-hidden relative">
+                <img src={p.image} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-black text-gray-900 mb-2 group-hover:text-emerald-700 transition-colors duration-300">
-                  {product.name}
-                </h3>
-                <p className="text-gray-600 mb-4">{product.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-2xl font-black text-emerald-600">{product.price}</span>
-                  <span className="text-sm text-gray-500">per notebook and paper</span>
+              <div className="p-8 flex-1 flex flex-col justify-between">
+                <div>
+                  <p className="text-emerald-700 text-xs font-bold tracking-widest uppercase mb-3">Product</p>
+                  <h3 className="text-2xl font-serif text-[#1a1a1a] mb-3">{p.name}</h3>
+                  <p className="text-gray-600 leading-relaxed">{p.description}</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
-
-        <div className="text-center">
-          <Link
-            href="/products"
-            className="inline-flex items-center gap-2 px-10 py-4 bg-gradient-to-r from-emerald-600 to-green-600 text-white font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 group text-lg"
-          >
-            <span>View All Products</span>
-            <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300" />
-          </Link>
-        </div>
       </div>
     </section>
   )
 }
 
-// Testimonials Section
-const TestimonialsSection = () => {
-  const testimonials = [
+// Team Section
+const TeamSection = () => {
+  const team = [
     {
-      quote: "Switching to Claspuro notebooks and papers was the best decision. Quality is amazing and I feel good about helping the environment!",
-      author: "Marie K.",
-      role: "University Student",
-      rating: 5
+      name: "Aime Pacifique Ikuzwe Mugisha",
+      role: "Founder & CEO",
+      image: "/ceo-founder.JPG",
+      desc: "Aime leads Puroch's vision of reducing deforestation by turning banana waste into sustainable, premium stationery while creating ethical jobs.",
+      email: "aimeikuzwe@claspuro.com"
     },
     {
-      quote: "Our school ordered 500 notebooks and papers for students. The quality exceeded expectations and the kids love the eco-story behind them.",
-      author: "David M.",
-      role: "School Administrator",
-      rating: 5
-    },
-    {
-      quote: "As a designer, I need great paper. Claspuro delivers premium quality while being sustainable. It's perfect!",
-      author: "Grace N.",
-      role: "Graphic Designer",
-      rating: 5
+      name: "Kennedy Karegeya",
+      role: "Co-founder",
+      image: "/co-founder.jpg",
+      desc: "Kennedy focuses on operations, partnerships, and community engagement, ensuring Puroch's impact reaches schools, offices, and organizations.",
+      email: "kennedykaregeya@claspuro.com"
     }
   ]
 
   return (
-    <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-emerald-50/20 to-white">
+    <section id="team" className="w-full py-24 px-4 sm:px-6 lg:px-8 bg-[#f2efe9]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
-            Loved by{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-green-600">
-              Thousands
-            </span>
+          <p className="text-emerald-700 text-xs font-bold tracking-widest uppercase mb-4">The People</p>
+          <h2 className="text-4xl font-serif text-[#1a1a1a] mb-6">
+            Meet our dedicated team.
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            See what our customers are saying about their Claspuro experience
+          <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
+            Passionate founders dedicated to transforming banana waste into opportunity for communities and the planet.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-2xl p-8 border-2 border-gray-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-xl relative"
-            >
-              <Quote size={32} className="text-emerald-200 absolute top-6 right-6" />
-
-              <div className="flex gap-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} size={18} className="text-amber-400 fill-amber-400" />
-                ))}
+        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          {team.map((member, i) => (
+            <div key={i} className="flex flex-col items-center text-center">
+              <div className="w-48 h-48 mb-6 overflow-hidden rounded-full border-4 border-emerald-100">
+                <img src={member.image} alt={member.name} className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-500" />
               </div>
-
-              <p className="text-gray-700 leading-relaxed mb-6 italic">
-                "{testimonial.quote}"
-              </p>
-
-              <div className="border-t pt-4">
-                <p className="font-black text-gray-900">{testimonial.author}</p>
-                <p className="text-sm text-gray-600">{testimonial.role}</p>
-              </div>
+              <h3 className="text-2xl font-serif text-[#1a1a1a] mb-2">{member.name}</h3>
+              <p className="text-emerald-700 text-xs font-bold tracking-widest uppercase mb-4">{member.role}</p>
+              <p className="text-gray-600 leading-relaxed mb-4">{member.desc}</p>
+              <a href={`mailto:${member.email}`} className="text-emerald-700 hover:text-emerald-900 text-sm font-semibold tracking-wide">
+                 {member.email}
+              </a>
             </div>
           ))}
         </div>
@@ -352,67 +265,42 @@ const TestimonialsSection = () => {
   )
 }
 
-// CTA Section
-const CTASection = () => (
-  <section className="relative w-full py-24 px-4 sm:px-6 lg:px-8 bg-white">
-    <div className="max-w-5xl mx-auto">
-      <div className="bg-gradient-to-br from-emerald-600 via-green-600 to-teal-600 rounded-3xl p-12 md:p-16 text-center overflow-hidden shadow-2xl relative">
-        {/* Background pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }}></div>
-        </div>
-
-        {/* Floating decorative elements */}
-        <div className="absolute top-8 right-8 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
-        <div className="absolute bottom-8 left-8 w-40 h-40 bg-white/10 rounded-full blur-2xl"></div>
-
-        <div className="relative z-10">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl mb-6">
-            <BookOpen size={40} className="text-white" />
-          </div>
-
-          <h2 className="text-4xl sm:text-5xl font-black text-white mb-6">
-            Ready to Make a Difference?
-          </h2>
-          <p className="text-xl text-emerald-50 mb-10 max-w-2xl mx-auto">
-            Join the sustainable stationery revolution. Every notebook and paper makes an impact.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Link
-              href="/products"
-              className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-white text-emerald-900 font-bold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 group text-lg"
-            >
-              <span>Shop Now</span>
-              <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300" />
-            </Link>
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-transparent text-white font-bold rounded-full border-2 border-white hover:bg-white/10 hover:scale-105 transition-all duration-300 text-lg"
-            >
-              <span>Contact Us</span>
-            </Link>
-          </div>
-        </div>
-      </div>
+// Get in Touch CTA
+const GetInTouchSection = () => (
+  <section id="contact" className="relative w-full py-32 px-4 sm:px-6 lg:px-8 bg-[#1a1a1a] overflow-hidden flex items-center justify-center text-center">
+    <div className="absolute inset-0 z-0">
+      <img src="/banner_banana_peel_home.jpg" alt="Forest Background" className="w-full h-full object-cover opacity-30" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-[#121212]"></div>
+    </div>
+    
+    <div className="relative z-10 max-w-3xl mx-auto">
+      <p className="text-emerald-400 text-xs font-bold tracking-widest uppercase mb-6">Get In Touch</p>
+      <h2 className="text-5xl md:text-6xl font-serif text-white mb-10 leading-tight">
+        Ready to make an <br/> impact?
+      </h2>
+      <Link href="/#contact" className="inline-block px-10 py-4 bg-emerald-700 hover:bg-emerald-600 text-white text-sm uppercase tracking-widest font-bold transition-all duration-300 min-w-[200px]">
+        Partner With Us
+      </Link>
+      <p className="mt-8 text-gray-400 text-sm tracking-widest uppercase">
+        Tamil Nadu, India | <a href="mailto:aimeikuzwe@claspuro.com" className="hover:text-emerald-400 transition-colors">aimeikuzwe@claspuro.com</a>
+      </p>
     </div>
   </section>
 )
 
 export default function Home() {
   return (
-    <main className="w-full bg-white">
+    <main className="w-full bg-[#f8f7f5]">
       <Navigation />
       <HeroSection />
-      <FeaturesSection />
-      <HowItWorksSection />
-      <ImpactStatsSection />
-      <ProductPreviewSection />
-      <TestimonialsSection />
-      <CTASection />
+      <AboutPurochSection />
+      <ImageRowSection />
+      <WhyPurochSection />
+      <OurImpactSection />
+      <ProcessSection />
+      <ProductsSection />
+      <TeamSection />
+      <GetInTouchSection />
       <Footer />
     </main>
   )
