@@ -7,15 +7,15 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Claspuro - Eco-Friendly Banana Peel Notebooks and Papers",
+  title: "Puroch - Premium Tree-Free Banana Peel Paper",
   description:
-    "Premium sustainable A4 notebooks and papers made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
-  metadataBase: new URL("https://claspuro.com"),
+    "Puroch transforms agricultural banana peel waste into high-quality, sustainable paper — profitably and responsibly for investors and partners.",
+  metadataBase: new URL("https://puroch.com"),
   alternates: {
-    canonical: "https://claspuro.com",
+    canonical: "https://puroch.com",
   },
   keywords: [
-    "Claspuro",
+    "Puroch",
     "eco friendly notebooks and papers",
     "banana peel notebooks and papers",
     "sustainable stationery",
@@ -25,26 +25,26 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    url: "https://claspuro.com",
-    siteName: "Claspuro",
-    title: "Claspuro - Eco-Friendly Banana Peel Notebooks and Papers",
+    url: "https://puroch.com",
+    siteName: "Puroch",
+    title: "Puroch - Premium Tree-Free Banana Peel Paper",
     description:
-      "Premium sustainable A4 notebooks and papers made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
+      "Puroch transforms agricultural banana peel waste into high-quality, sustainable paper — profitably and responsibly for investors and partners.",
     locale: "en_US",
     images: [
       {
         url: "/og-banner.jpg",
         width: 1200,
         height: 630,
-        alt: "Claspuro eco-friendly banana peel notebooks and papers",
+        alt: "Puroch eco-friendly banana peel paper",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Claspuro - Eco-Friendly Banana Peel Notebooks and Papers",
+    title: "Puroch - Premium Tree-Free Banana Peel Paper",
     description:
-      "Premium sustainable A4 notebooks and papers made from banana peels. Transforming banana waste into quality stationery for students, schools, offices, and eco-conscious consumers.",
+      "Puroch transforms agricultural banana peel waste into high-quality, sustainable paper — profitably and responsibly for investors and partners.",
     images: ["/og-banner.jpg"],
   },
   icons: {
