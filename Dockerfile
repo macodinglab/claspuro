@@ -10,7 +10,6 @@ RUN apk add --no-cache libc6-compat
 COPY package.json package-lock.json* pnpm-lock.yaml* bun.lockb* ./
 
 # Prefer npm if there is a package-lock, otherwise fall back to pnpm/yarn if present.
-RUN npm install -g npm@latest
 RUN if [ -f package-lock.json ]; then \
       npm ci --legacy-peer-deps; \
     elif [ -f pnpm-lock.yaml ]; then \
